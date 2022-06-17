@@ -1,5 +1,6 @@
 export { default as logo } from "./aplus.png";
 export { default as aafabanner } from "./aafabanner.jpg";
+export { default as valueimage } from "./valueimage.jpg";
 export { default as logoBlue } from "./logo-blue.svg";
 export { default as brandpattern } from "./brand-pattern.svg";
 export { default as brandpattern2 } from "./brand-pattern2.svg";

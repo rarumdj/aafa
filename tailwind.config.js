@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url(assets/images/aafabanner.jpg)",
+        "value-prep": "url(assets/images/valueimage.jpg)",
       },
       backgroundPosition: {
         "custom-90": "90%",

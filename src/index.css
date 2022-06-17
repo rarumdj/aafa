@@ -3,105 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Extrathin.otf") format("opentype");
-  font-weight: 100;
+  font-family: "Sans";
+  src: url("assets/fonts/AafaSansStd-Book.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Averta";
-  src: url("assets/fonts/Averta-Extrathin-Italic.otf") format("opentype");
-  font-weight: 100;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Thin.otf") format("opentype");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Thin-Italic.otf") format("opentype");
-  font-weight: 200;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Light.otf") format("opentype");
+  src: url("assets/fonts/AafaSansStd-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Averta";
-  src: url("assets/fonts/Averta-Light-Italic.otf") format("opentype");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Regular-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Semibold.otf") format("opentype");
+  src: url("assets/fonts/AafaSansStd-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Averta";
-  src: url("assets/fonts/Averta-Semibold-Italic.otf") format("opentype");
-  font-weight: 500;
-  font-style: italic;
+  src: url("assets/fonts/AafaSansStd-Thin.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
 }
 @font-face {
   font-family: "Averta";
-  src: url("assets/fonts/Averta-Bold.otf") format("opentype");
+  src: url("assets/fonts/AafaSansStd-SemiBold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Bold-Italic.otf") format("opentype");
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Extra-Bold.otf") format("opentype");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Extra-Bold-Italic.otf") format("opentype");
-  font-weight: 800;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Black.otf") format("opentype");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Averta";
-  src: url("assets/fonts/Averta-Black-Italic.otf") format("opentype");
-  font-weight: 900;
-  font-style: italic;
 }
 
 :root {
-  --font-family: "Averta", sans-serif;
-  
+  --font-family: "Sans", sans-serif;
 }

@@ -11,7 +11,7 @@ import { aafabanner } from "../../assets/images";
 // width: 100vw;
 const Hero = () => {
   return (
-    <div className="hero lg:min-h-screen bg-hero-pattern bg-no-repeat lg:bg-custom-100 bg-custom-90 lg:object-contain object-cover relative w-screen h-[424px]">
+    <div className="hero  lg:min-h-[664px] bg-hero-pattern bg-no-repeat lg:bg-custom-100 bg-custom-90 lg:object-contain object-cover relative w-screen h-[424px]">
       {/* <div className="hero-overlay bg-opacity-60"></div> */}
       <div className="hero-content text-left absolute pl-16 left-0">
         <div className="max-w-xl">
@@ -22,11 +22,12 @@ const Hero = () => {
             our ability to approach creative development and product management
             from a consumer-centric lens.
           </p>
-          <button className="btn btn-primary">Find out more</button>
+          <button className="btn btn-primary bg-[#c57354] hover:bg-[#a44b2b] border-none">Find out more</button>
         </div>
       </div>
     </div>
-
+// f9f5f2
+//f6efec
     // <section id="home" className=" 2xl:h-full lg:h-screen min-h-full">
     //   <div className="flex flex-col md:flex-row lg:pl-24 items-center">
     // {/* <div className="space-y-6 lg:mt-20 sm:mt-10 lg:mr-8 px-6 sm:mb-20 ">
