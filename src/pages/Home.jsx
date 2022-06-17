@@ -3,7 +3,9 @@ import {
   Contact,
   Eligibility,
   Hero,
+  Stats,
   ValueProposition,
+  TestimonialVideo,
 } from "../containers/home";
 
 const Home = () => {
@@ -12,7 +14,8 @@ const Home = () => {
       <Hero />
       <Eligibility />
       <ValueProposition />
-      <Contact />
+      <Stats />
+      <TestimonialVideo />
     </>
   );
 };

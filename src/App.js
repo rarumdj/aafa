@@ -1,6 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
-
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
 import { Navbar, Footer } from "./components";
