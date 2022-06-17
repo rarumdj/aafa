@@ -73,10 +73,10 @@ const Navbar = () => {
           </button>
           <aside>
             <nav className="lg:flex hidden lg:space-x-36 space-x-8">
-              <ul className="menu flex flex-row items-center text-black  lg:text-sm text-xs">
+              <ul className="menu   flex flex-row items-center text-black  lg:text-sm text-xs">
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#eligibility"
                     onClick={() => setClick(false)}>
                     Home
@@ -84,7 +84,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#contact"
                     onClick={() => setClick(false)}>
                     About Us
@@ -92,7 +92,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#testimonial"
                     onClick={() => setClick(false)}>
                     Our Services
@@ -100,7 +100,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#ourcar"
                     onClick={() => setClick(false)}>
                     Education
@@ -108,7 +108,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#ourcar"
                     onClick={() => setClick(false)}>
                     DIVE
@@ -116,7 +116,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#ourcar"
                     onClick={() => setClick(false)}>
                     REROLL
@@ -124,7 +124,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#ourcar"
                     onClick={() => setClick(false)}>
                     Special projects
@@ -132,7 +132,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#ourcar"
                     onClick={() => setClick(false)}>
                     Our Team
@@ -140,7 +140,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     href="#ourcar"
                     onClick={() => setClick(false)}>
                     Press & Reviews
