@@ -3,7 +3,7 @@ import {
   Contact,
   Eligibility,
   Hero,
-  OurCar,
+  ValueProposition,
 } from "../containers/home";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Hero />
       <Eligibility />
-      <OurCar />
+      <ValueProposition />
       <Contact />
     </>
   );

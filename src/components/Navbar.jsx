@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { Link, NavLink } from "react-router-dom";
 import { logo } from "../assets/images";
+import { useEffect } from "react";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -33,8 +34,24 @@ const Navbar = () => {
     },
   };
 
+  const [stickyClass, setStickyClass] = useState("");
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+    return () => window.removeEventListener("scroll", stickNavbar);
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      // window height changed for the demo
+      windowHeight > 80 ? setStickyClass("bg-[#f9f5f2]") : setStickyClass("");
+    }
+  };
+
   return (
-    <header className=" py-4 px-6 lg:py-4 lg:px-16 fixed top-0 left-0 right-0 z-50 flex justify-center">
+    <header
+      className={`py-4 px-6 lg:py-4 lg:px-16 fixed top-0 left-0 right-0 z-50 flex justify-center ${stickyClass}`}>
       <nav className="flex flex-row lg:justify-start justify-between items-center w-screen max-w-[110rem]">
         <div className="z-50">
           <Link to="/">
@@ -51,12 +68,12 @@ const Navbar = () => {
             <Icon
               icon={click ? "ep:close" : "charm:menu-hamburger"}
               fontSize={30}
-              color="fff"
+              className="text-[#a44b2b]"
             />
           </button>
           <aside>
             <nav className="lg:flex hidden lg:space-x-36 space-x-8">
-              <ul className="flex flex-row space-x-8 items-center text-black  lg:text-sm text-xs">
+              <ul className="menu flex flex-row items-center text-black  lg:text-sm text-xs">
                 <li>
                   <a
                     className="cursor-pointer"

@@ -18,11 +18,11 @@ const Eligibility = () => {
             hidden: { opacity: 0, y: 50 },
           }}
           className="flex flex-col w-full justify-center items-center ">
-          <h2 className="text-xl text-[#c57354] lg:text-3xl font-bold text-center md:mx-16">
-            We are the highest level of resource support community the African
+          <h2 className="md:text-xl text-lg text-[#c57354] lg:text-3xl font-bold text-center md:mx-16">
+            "We are the highest level of resource support community the African
             creative & brand can be a part of. Our unique selling position is
             our ability to approach creative development and product management
-            from a consumer-centric lens.
+            from a consumer-centric lens."
           </h2>
           <p className="text-center text-[#a44b2b] text-sm md:text-xl font-bold mt-2">
             - Quote
