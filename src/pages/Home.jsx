@@ -1,11 +1,11 @@
-import React from "react";
 import {
-  Contact,
   Eligibility,
+  EventsNews,
   Hero,
   Stats,
-  ValueProposition,
+  Testimonial,
   TestimonialVideo,
+  ValueProposition,
 } from "../containers/home";
 
 const Home = () => {
@@ -16,6 +16,8 @@ const Home = () => {
       <ValueProposition />
       <Stats />
       <TestimonialVideo />
+      <Testimonial />
+      <EventsNews />
     </>
   );
 };

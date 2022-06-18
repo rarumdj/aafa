@@ -1,17 +1,6 @@
-import React from "react";
-import {
-  hondacivic,
-  toyotacam03,
-  toyotacorolla,
-  toyotamatrix,
-  valueimage,
-} from "../../assets/images";
-
 const ValueProposition = () => {
   return (
-    <section
-      id="value"
-      className="bg-[#f6efec] md:bg-contain bg-auto py-16 ">
+    <section id="value" className="bg-[#f6efec] md:bg-contain bg-auto py-16 ">
       <div className="px-6 lg:px-16 mb-10">
         <h1 className="md:text-4xl text-3xl font-bold px-4 text-black">
           Value Proposition -{" "}

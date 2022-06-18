@@ -29,13 +29,13 @@ const Footer = () => {
           About us
         </a>
         <a className="link link-hover text-neutral" href="/">
-          Contact
+          Our Service
         </a>
         <a className="link link-hover text-neutral" href="/">
-          Jobs
+          Education
         </a>
         <a className="link link-hover text-neutral" href="/">
-          Press kit
+          Our Team
         </a>
       </div>
 

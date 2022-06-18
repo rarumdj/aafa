@@ -4,3 +4,5 @@ export { default as ValueProposition } from "./ValueProposition";
 export { default as Contact } from "./Contact";
 export { default as Stats } from "./Stats";
 export { default as TestimonialVideo } from "./TestimonialVideo";
+export { default as Testimonial } from "./Testimonial";
+export { default as EventsNews } from "./EventsNews";
