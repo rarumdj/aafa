@@ -74,12 +74,12 @@ const Navbar = () => {
             <nav className="lg:flex hidden lg:space-x-36 space-x-8">
               <ul className="menu   flex flex-row items-center text-black  lg:text-sm text-xs">
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#eligibility"
+                    to="/"
                     onClick={() => setClick(false)}>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -90,12 +90,12 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#testimonial"
+                    to="/service"
                     onClick={() => setClick(false)}>
                     Our Services
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a

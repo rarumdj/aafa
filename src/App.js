@@ -3,7 +3,7 @@ import "./App.css";
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
 import { Navbar, Footer } from "./components";
-import { About, Home } from "./pages";
+import { About, Home, OurService } from "./pages";
 
 function App() {
   const location = useLocation();
@@ -28,6 +28,7 @@ function App() {
           <Routes>
             <Route path="/*" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
+            <Route path="/service" element={<OurService />}></Route>
           </Routes>
         </main>
         <Footer />
