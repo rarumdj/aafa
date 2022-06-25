@@ -2,13 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { aafabanner } from "../../assets/images";
 
-// background-position: 90%;
-// background-repeat: no-repeat;
-// background-size: cover;
-// height: 424px;
-// max-width: 1640px;
-// position: relative;
-// width: 100vw;
+
 const Hero = () => {
   return (
     <section className="h-screen lg:h-full">

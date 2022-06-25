@@ -1,9 +1,8 @@
-import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { logo } from "../assets/images";
-import { useEffect } from "react";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -83,12 +82,12 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#contact"
+                    to="/about"
                     onClick={() => setClick(false)}>
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
