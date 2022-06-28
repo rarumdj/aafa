@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <header
       className={`py-4 px-6 lg:py-4 lg:px-16 fixed top-0 left-0 right-0 z-50 flex justify-center ${stickyClass}`}>
-      <nav className="flex flex-row lg:justify-start justify-between items-center w-screen max-w-[110rem]">
+      <nav className="flex flex-row lg:justify-start justify-between items-center w-screen max-w-[110rem] ml-auto ">
         <div className="z-50">
           <Link to="/">
             <img src={logo} alt="" className="w-16" />
@@ -72,7 +72,7 @@ const Navbar = () => {
           </button>
           <aside>
             <nav className="lg:flex hidden lg:space-x-36 space-x-8">
-              <ul className="menu   flex flex-row items-center text-black  lg:text-sm text-xs">
+              <ul className="menu   flex flex-row items-center justify-center text-black  lg:text-sm text-xs">
                 <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"

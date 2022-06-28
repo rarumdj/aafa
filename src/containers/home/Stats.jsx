@@ -12,39 +12,39 @@ const Stats = () => {
         <div className="flex flex-col">
           {/* Count */}
           {/* <div className="flex flex-wrap w-full"> */}
-          <div class="stats bg-transparent">
-            <div class="stat place-items-center">
-              <div class="stat-title">Creative ArtForms</div>
-              <div class="stat-value">31K</div>
+          <div className="stats bg-transparent">
+            <div className="stat place-items-center">
+              <div className="stat-title">Creative ArtForms</div>
+              <div className="stat-value">31K</div>
             </div>
-            <div class="stat place-items-center">
-              <div class="stat-title">Projects executed</div>
-              <div class="stat-value">31K</div>
-            </div>
-
-            <div class="stat place-items-center">
-              <div class="stat-title">Partnerships</div>
-              <div class="stat-value text-secondary">4,200</div>
+            <div className="stat place-items-center">
+              <div className="stat-title">Projects executed</div>
+              <div className="stat-value">31K</div>
             </div>
 
-            <div class="stat place-items-center">
-              <div class="stat-title">Life Impacted</div>
-              <div class="stat-value">1,200</div>
+            <div className="stat place-items-center">
+              <div className="stat-title">Partnerships</div>
+              <div className="stat-value text-secondary">4,200</div>
             </div>
 
-            <div class="stat place-items-center">
-              <div class="stat-title">Businesses supported</div>
-              <div class="stat-value">1,200</div>
+            <div className="stat place-items-center">
+              <div className="stat-title">Life Impacted</div>
+              <div className="stat-value">1,200</div>
             </div>
 
-            <div class="stat place-items-center">
-              <div class="stat-title">Linkages</div>
-              <div class="stat-value">31K</div>
+            <div className="stat place-items-center">
+              <div className="stat-title">Businesses supported</div>
+              <div className="stat-value">1,200</div>
             </div>
 
-            <div class="stat place-items-center">
-              <div class="stat-title">Community members</div>
-              <div class="stat-value">31K</div>
+            <div className="stat place-items-center">
+              <div className="stat-title">Linkages</div>
+              <div className="stat-value">31K</div>
+            </div>
+
+            <div className="stat place-items-center">
+              <div className="stat-title">Community members</div>
+              <div className="stat-value">31K</div>
             </div>
           </div>
         </div>
