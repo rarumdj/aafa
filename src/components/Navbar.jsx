@@ -98,52 +98,52 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#ourcar"
+                    to="/education"
                     onClick={() => setClick(false)}>
                     Education
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#ourcar"
+                    to="/dive"
                     onClick={() => setClick(false)}>
                     DIVE
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#ourcar"
+                    to="/reroll"
                     onClick={() => setClick(false)}>
                     REROLL
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#ourcar"
+                    to="/special-projects"
                     onClick={() => setClick(false)}>
                     Special projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#ourcar"
+                    to="/team"
                     onClick={() => setClick(false)}>
                     Our Team
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    href="#ourcar"
+                    to="/press-reviews"
                     onClick={() => setClick(false)}>
                     Press & Reviews
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -157,76 +157,76 @@ const Navbar = () => {
                 <div className="space-y-16 w-full max-w-md">
                   <ul className="flex flex-col space-y-10 items-center text-white font-medium ">
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#eligibility"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/"
                         onClick={() => setClick(false)}>
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#contact"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/about"
                         onClick={() => setClick(false)}>
                         About Us
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#testimonial"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/service"
                         onClick={() => setClick(false)}>
                         Our Services
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#ourcar"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/education"
                         onClick={() => setClick(false)}>
                         Education
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#ourcar"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/dive"
                         onClick={() => setClick(false)}>
                         DIVE
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#ourcar"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/reroll"
                         onClick={() => setClick(false)}>
                         REROLL
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#ourcar"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/special-projects"
                         onClick={() => setClick(false)}>
                         Special projects
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#ourcar"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/team"
                         onClick={() => setClick(false)}>
                         Our Team
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        className="cursor-pointer"
-                        href="#ourcar"
+                      <Link
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        to="/press-reviews"
                         onClick={() => setClick(false)}>
                         Press & Reviews
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
