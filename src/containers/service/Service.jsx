@@ -133,6 +133,9 @@ const Service = () => {
                     and ROI maximizing results on the industry’s leading edge.
                   </p>
                 </div>
+                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  Discover More
+                </button>
               </div>
             </div>
             <div class="p-4 lg:w-1/2 w-full">
@@ -177,6 +180,9 @@ const Service = () => {
                     and ROI maximizing results on the industry’s leading edge.
                   </p>
                 </div>
+                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  Join Now
+                </button>
               </div>
             </div>
           </div>
@@ -195,6 +201,9 @@ const Service = () => {
                     and ROI maximizing results on the industry’s leading edge.
                   </p>
                 </div>
+                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  Join Now
+                </button>
               </div>
             </div>
             <div class="p-4 lg:w-1/2 w-full">
