@@ -29,17 +29,17 @@ const TestimonialVideo = () => {
                 Testimonial video
               </h1>
               <p className="text-center text-white text-sm md:text-xl font-bold mt-2">
-            - Mai Atafo
-          </p>
+                - Mai Atafo
+              </p>
             </div>
           </div>
         </div>
       </div>
       <ModalVideo
-        channel="youtube"
+        channel="vimeo"
         autoplay
         isOpen={isOpen}
-        videoId="L61p2uyiMSo"
+        videoId="722273589"
         onClose={() => setOpen(false)}
       />
     </div>
