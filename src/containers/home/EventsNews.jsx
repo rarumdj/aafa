@@ -34,9 +34,10 @@ const EventsNews = () => {
                   Shooting Stars
                 </h2>
                 <p className="text-base leading-relaxed mt-2">
-                  Swag shoivdigoitch literally meditation subway tile tumblr
-                  cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                  ethical XOXO lumbersexual.
+                  We are the highest level of resource support community the
+                  African creative & brand can be a part of. Our unique selling
+                  position is our ability to approach creative development and
+                  product management from a consumer-centric lens.
                 </p>
                 <a
                   href="/"
@@ -66,9 +67,10 @@ const EventsNews = () => {
                   The Catalyzer
                 </h2>
                 <p className="text-base leading-relaxed mt-2">
-                  Swag shoivdigoitch literally meditation subway tile tumblr
-                  cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                  ethical XOXO lumbersexual.
+                  We are the highest level of resource support community the
+                  African creative & brand can be a part of. Our unique selling
+                  position is our ability to approach creative development and
+                  product management from a consumer-centric lens.
                 </p>
                 <a
                   href="/"
@@ -95,12 +97,13 @@ const EventsNews = () => {
                   />
                 </div>
                 <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-                  The 400 Blows
+                  The Catalyzer
                 </h2>
                 <p className="text-base leading-relaxed mt-2">
-                  Swag shoivdigoitch literally meditation subway tile tumblr
-                  cold-pressed. Gastropub street art beard dreamcatcher neutra,
-                  ethical XOXO lumbersexual.
+                  We are the highest level of resource support community the
+                  African creative & brand can be a part of. Our unique selling
+                  position is our ability to approach creative development and
+                  product management from a consumer-centric lens.
                 </p>
                 <a
                   href="/"
