@@ -1,23 +1,32 @@
 import {
+  AgencyStats,
+  Banner,
   Eligibility,
   EventsNews,
   Hero,
+  OurExperience,
   Stats,
+  Story,
   Testimonial,
   TestimonialVideo,
   ValueProposition,
 } from "../containers/home";
+import WhatWeDo from "../containers/home/WhatWeDo";
 
 const Home = () => {
   return (
     <>
       <Hero />
       <Eligibility />
-      <ValueProposition />
-      <Stats />
-      <TestimonialVideo />
+      <WhatWeDo />
+      <AgencyStats/>
+      <OurExperience/>
+      {/* <ValueProposition /> */}
+      {/* <Stats /> */}
+      {/* <TestimonialVideo /> */}
+      <Story />
       <Testimonial />
-      <EventsNews />
+      <Banner />
     </>
   );
 };

@@ -6,3 +6,7 @@ export { default as Stats } from "./Stats";
 export { default as TestimonialVideo } from "./TestimonialVideo";
 export { default as Testimonial } from "./Testimonial";
 export { default as EventsNews } from "./EventsNews";
+export { default as AgencyStats } from "./AgencyStats";
+export { default as OurExperience } from "./OurExperience";
+export { default as Banner } from "./Banner";
+export { default as Story } from "./Story";

@@ -5,77 +5,104 @@ import { logo } from "../assets/images";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-[#f6efec] footer-center p-10 text-base-content rounded-t">
-      <div>
-        <span className="text-xl text-neutral">Subscribe to our Newsletter</span>
-        <div className="form-control lg:w-80">
-          <label className="label">
-            <span className="label-text text-black">Enter your email address</span>
-          </label>
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="username@site.com"
-              className="input bg-white input-bordered w-full pr-16"
-            />
-            <button className="btn btn-primary bg-[#c57354] hover:bg-[#a44b2b] border-none absolute top-0 right-0 rounded-l-none">
-              Subscribe
-            </button>
+    <footer className="bg-[#F9F9F9]">
+
+      <div className="text-neutral container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <a
+            className="flex title-font font-medium items-center md:justify-start justify-center "
+            href="/">
+            <img src={logo} alt="" className="w-10" />
+            <span className="ml-3 text-xl custom-font">A+ Agency</span>
+          </a>
+          <p className="mt-6 text-sm">
+          The creatives from Africa are cut from a collection of rough diamonds but with thorough refining and polishing they are bound to take over the globe!
+          </p>
+        </div>
+        <div className="flex-grow flex flex-wrap md:pl-32 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium  tracking-widest text-sm mb-3">
+              About
+            </h2>
+            <nav className="list-none mb-10 space-y-2">
+              <li>
+                <Link className=" hover:text-gray-50" to="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link className=" hover:text-gray-50" to="/about">
+                  Our Service
+                </Link>
+              </li>
+              <li>
+                <Link className=" hover:text-gray-50" to="/contact">
+                  Our Work
+                </Link>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium  tracking-widest text-sm mb-3">
+              Learn
+            </h2>
+            <nav className="list-none mb-10 space-y-2">
+              <li>
+                <Link className=" hover:text-gray-50" to="/">
+                  Education
+                </Link>
+              </li>
+              <li>
+                <Link className=" hover:text-gray-50" to="/">
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link className=" hover:text-gray-50" to="/">
+                 Press reviews
+                </Link>
+              </li>
+             
+            </nav>
+          </div>
+          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium  tracking-widest text-sm mb-3">
+              Contact us
+            </h2>
+            <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+        <a class="text-gray-500" href="/">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="/">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="/">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="/">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
           </div>
         </div>
       </div>
-      <div className="grid grid-flow-col gap-4">
-        <a className="link link-hover text-neutral" href="/">
-          About us
-        </a>
-        <a className="link link-hover text-neutral" href="/">
-          Our Service
-        </a>
-        <a className="link link-hover text-neutral" href="/">
-          Education
-        </a>
-        <a className="link link-hover text-neutral" href="/">
-          Our Team
-        </a>
-      </div>
+    <div class="container mx-auto border-t border-gray-200 py-8 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-500 text-sm text-center sm:text-left">© Copyright 2021 A+ AGENCY. All rights reserved.
+        {/* <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a> */}
+      </p>
+    </div>
+ 
 
-      <div>
-        <div className="grid grid-flow-col gap-4">
-          <a href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current">
-              <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-            </svg>
-          </a>
-          <a href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current">
-              <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-            </svg>
-          </a>
-          <a href="/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              className="fill-current">
-              <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div>
-        <p>Copyright © 2022 - All right reserved by A+ Agency</p>
-      </div>
     </footer>
   );
 };

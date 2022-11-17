@@ -1,5 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
+// eslint-disable-next-line
+import "swiper/css/bundle";
 import { AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
 import { Navbar, Footer } from "./components";

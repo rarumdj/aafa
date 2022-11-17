@@ -1,6 +1,7 @@
 export { default as logo } from "./aplus.png";
 export { default as aafabanner } from "./aafabanner.jpg";
 export { default as valueimage } from "./valueimage.jpg";
+export { default as whatweImg } from "./whatweImg.jpeg";
 export { default as aboutone } from "./aboutone.jpg";
 export { default as abouttwo } from "./abouttwo.jpg";
 export { default as aboutthree } from "./aboutthree.jpg";
@@ -25,6 +26,12 @@ export { default as anthony } from "./anthony.png";
 export { default as lazarus } from "./lazarus.png";
 export { default as sunday } from "./sunday.png";
 export { default as aboutimg } from "./aboutimg.png";
+export { default as bank_logo } from "./bank_logo.png";
+export { default as british_logo } from "./british_logo.png";
+export { default as export_logo } from "./export_logo.png";
+export { default as fresh_logo } from "./fresh_logo.png";
+export { default as scale_logo } from "./scale_logo.png";
+export { default as mercy } from "./mercy.png";
 export { default as comma } from "./comma.svg";
 export { default as line } from "./line.svg";
 
