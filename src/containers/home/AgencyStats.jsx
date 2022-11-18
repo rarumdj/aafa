@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import {
   aboutone,
   anthony,
+  creative_art,
   james,
   lazarus,
+  live_impact,
   lucky,
+  project_ex,
   righteligibility,
   sunday,
 } from "../../assets/images";
@@ -27,32 +30,29 @@ import "swiper/css/autoplay";
 
 const Testi = [
   {
-    name: "Kenedy James",
-    para: `I have been driving as a commercial driver for over 5 years
-  but the exceptional service and ease of getting a car from
-  Rapyd was amazing. I look forward to the day I'll have the
-  original documents as I already own this car in my mind.`,
-    imgSrc: james,
+    name: "Creative Art Forms",
+    year: `6`,
+    imgSrc: creative_art,
   },
   {
-    name: "Anthony",
-    para: `My experience with Rapyd has left me with nothing but a grateful heart. This is more than a business for me, Rapyd Cars empowered me to achieve my personal goals. Thank you Rapyd Cars.`,
-    imgSrc: anthony,
+    name: "Projects Executed",
+    year: `7`,
+    imgSrc: project_ex,
   },
   {
-    name: "Sunday",
-    para: `Sometimes I have the impression that Rapyd is not a Nigerian company because of how fast and excellent their services are. The amount of concern they have for their Driver is highly commendable and I am more than grateful to be on this journey to own my own car. Thank you Rapyd.`,
-    imgSrc: sunday,
+    name: "Lives impacted",
+    year: `20,000+`,
+    imgSrc: live_impact,
   },
   {
-    name: "Lucky",
-    para: `I feel like my name was what I experienced with Rapyd Cars. I feel so Lucky to be associated with a company like Rapyd Cars. Thank Rapyd for this opportunity to be my own Boss. `,
-    imgSrc: lucky,
+    name: "Businesses Supported",
+    year: `268`,
+    imgSrc: project_ex,
   },
   {
-    name: "Lazarus",
-    para: `Rapyd cars was my saviour after the ugly experience I had during the pandemic. I enjoyed the best of treatment as a driver that any organization has ever given to me. `,
-    imgSrc: lazarus,
+    name: "Community Members",
+    year: `2,000+`,
+    imgSrc: project_ex,
   },
 ];
 
@@ -102,7 +102,7 @@ const AgencyStats = () => {
                   <div className="absolute inset-0 m-auto w-full h-[80%] flex">
                     <div className="h-full w-full bg-black opacity-60 z-10 " />
                     <img
-                      src={aboutone}
+                      src={items.imgSrc}
                       alt="img-about"
                       className="absolute inset-0  w-full h-full object-contfain"
                     />
@@ -111,12 +111,12 @@ const AgencyStats = () => {
                   <div className="absolute bottom-0 flex h-fit -translate-y-20 z-10">
                     <div className="p-2.5 bg-orange-500">
                       <h4 className="lg:text-lg text-base font-medium text-white ">
-                        Launched in 2018
+                        {items.name}
                       </h4>
                     </div>
                     <div className="p-2.5 bg-orange-800">
                       <h4 className="lg:text-lg text-base font-medium text-white">
-                        8
+                        {items.year}
                       </h4>
                     </div>
                   </div>

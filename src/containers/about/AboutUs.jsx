@@ -1,4 +1,4 @@
-import { aboutone, aboutthree, abouttwo, line } from "../../assets/images";
+import { aboutone, aboutthree, abouttwo, ire_photo, line } from "../../assets/images";
 import Teams from "../../components/Teams";
 
 const AboutUs = () => {
@@ -49,8 +49,8 @@ const AboutUs = () => {
         <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center items-center w-screen max-w-[100rem]">
           <div className="w-10/12">
             <div className="grid md:grid-cols-2 -m-4 border-b-2 border-[#a45f43] pb-8">
-              <div className="p-4 w-full order-last">
-                <div className="p-4">
+              <div className="md:p-4 w-full order-last">
+                <div className="md:p-4">
                   <h2 className="text-white text-2xl font-medium">
                     Ireoluwa Soetan
                   </h2>
@@ -90,17 +90,12 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-4  w-full">
-                <div className="p-4 w-full">
-                  <div className="flex border-4 rounded-2xl  w-full border-white relative pb-[60%]">
-                    <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
-                      <img
-                        src={aboutone}
-                        alt="img-about"
-                        className="absolute inset-0 translate-x-2 -translate-y-2 w-full h-full rounded-lg"
-                      />
-                    </div>
-                  </div>
+              <div className="p-4  w-full flex justify-end ">
+                <div className="p-4 w-fit">
+                <Teams
+                  image={ire_photo}
+                 
+                />
                 </div>
               </div>
             </div>
@@ -116,12 +111,12 @@ const AboutUs = () => {
               </p>
               <div className="mt-10 grid md:grid-cols-4 gap-6">
                 <Teams
-                  image={aboutone}
+                  image={ire_photo}
                   name=" Ireoluwa Soetan"
                   position={"Executive Assistant"}
                 />
                 <Teams
-                  image={aboutone}
+                  image={ire_photo}
                   name=" Ireoluwa Soetan"
                   position={"Executive Assistant"}
                 />
