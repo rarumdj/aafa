@@ -12,7 +12,7 @@ const Banner = () => {
         visible: { opacity: 1, y: 0 },
         hidden: { opacity: 0, y: 50 },
       }}
-      className="py-24 md:pb-0 pb-24 px-6 lg:px-16 flex justify-center">
+      className="py-24 md:pb-0 pb-24 md:mb-20 px-6 lg:px-16 flex justify-center">
       <div className="container w-full rounded-2xl md:p-24 p-8 py-20 bg-banner h-full flex md:flex-row flex-col justify-between items-center">
         <div className="space-y-4 lg:w-6/12 w-full text-[#444444] ">
           <h1 className="md:text-4xl text-3xl custom-font font-bold">Become a part of us</h1>

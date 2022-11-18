@@ -142,8 +142,8 @@ const Works = () => {
           </div>
         </div>
         <div className="flex flex-col mx-auto  px-6 justify-center lg:mt-24 mt-16">
-          <div class="flex flex-wrap -m-4 items-center">
-            <div class="p-4 lg:w-1/2 w-full">
+          <div className="grid md:grid-cols-2 -m-4 items-center">
+            <div className="p-4 w-full order-last md:order-first">
               <div className="p-4">
                 <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
                   The Creative Cohort
@@ -161,7 +161,7 @@ const Works = () => {
                 </button>
               </div>
             </div>
-            <div class="p-4 lg:w-1/2 w-full">
+            <div className="p-4  w-full">
               <div className="p-4 w-full">
                 <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
@@ -176,21 +176,8 @@ const Works = () => {
             </div>
           </div>
 
-          <div class="lg:flex hidden flex-wrap -m-4 items-center lg:mt-16 mt-8">
-            <div class="p-4 lg:w-1/2 w-full">
-              <div className="p-4 w-full">
-                <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
-                  <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
-                    <img
-                      src={aboutone}
-                      alt="img-about"
-                      className="absolute inset-0 translate-x-2 -translate-y-2 w-full h-full rounded-lg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 lg:w-1/2 w-full">
+          <div className="grid md:grid-cols-2 -m-4 items-center mt-10">
+            <div className="p-4 w-full order-last">
               <div className="p-4">
                 <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
                   Oleku
@@ -210,38 +197,11 @@ const Works = () => {
                   </p>
                 </div>
                 <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
-                  Join Now
+                  Discover More
                 </button>
               </div>
             </div>
-          </div>
-
-          <div class="flex lg:hidden flex-wrap -m-4 items-center lg:mt-16 mt-8">
-            <div class="p-4 lg:w-1/2 w-full">
-              <div className="p-4">
-                <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
-                Oleku
-                </h2>
-                <div className="flex items-center">
-                  <p className="lg:text-base text-sm text-[#896d5e]">
-                  Oleku Galleria is an inclusive and supportive ecosystem to
-                    help women-owned businesses develop robust international
-                    trade relationships, easy international market entry,
-                    training to increase quality of product output and increase
-                    productivity and competitiveness, Stationed at the heart of
-                    London, for a period, the Oleku Galleria Hybrid Pop-up Sale
-                    Event would showcase black female-owned businesses through a
-                    wholesale /retail e-commerce platform, a digital and
-                    in-store Pop-up concept display (timed shopping event that
-                    sells carefully curated and unique selection of brands).
-                  </p>
-                </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
-                  Join Now
-                </button>
-              </div>
-            </div>
-            <div class="p-4 lg:w-1/2 w-full">
+            <div className="p-4  w-full">
               <div className="p-4 w-full">
                 <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">

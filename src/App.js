@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { Navbar, Footer } from "./components";
 import { About, Home, OurService } from "./pages";
 import { Works } from "./containers/work";
+import { Programs } from "./containers/programs";
 
 function App() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
             <Route path="/services" element={<OurService />}></Route>
             <Route path="/ourwork" element={<Works />}></Route>
+            <Route path="/programs" element={<Programs />}></Route>
           </Routes>
         </main>
         <Footer />
