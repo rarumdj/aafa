@@ -24,7 +24,7 @@ const Hero = () => {
 
       <div className="hero-content lg:hidden block text-left absolute pl-8 left-0">
         <div className="max-w-xl">
-          <h1 className="mb-5 custom-font text-[#A44B2B] lg:text-5xl md:text-3xl font-bold">
+          <h1 className="mb-5 custom-font text-[#A44B2B] lg:text-5xl text-3xl font-bold">
             Welcome to A+
           </h1>
           <p className="mb-5 text-[#896d5e] lg:text-base text-sm">
