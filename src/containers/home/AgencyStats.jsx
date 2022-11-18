@@ -139,33 +139,35 @@ const AgencyStats = () => {
         </div>
       </div>
       <div className="space-y-4  md:hidden  block">
-        <div className="pt-8 justify-center flex">
-          <div className="w-11/12 bg-opacity-70 overflow-hidden py-2 relative ">
-            <div className="flex w-full relative h-full pb-[60%] ">
-              <div className="absolute inset-0 m-auto w-full flex ">
-                <div className="h-full w-full bg-black opacity-60 z-10" />
-                <img
-                  src={aboutone}
-                  alt="img-about"
-                  className="absolute inset-0 w-full h-full object-contfain"
-                />
-              </div>
-
-              <div className="absolute flex h-fit bottom-5 z-10">
-                <div className="p-2.5 bg-orange-500">
-                  <h4 className="lg:text-xl text-sm font-medium text-white ">
-                    Launched in 2018
-                  </h4>
+        {Testi.map((item, i) => (
+          <div className="pt-8 justify-center flex" key={i}>
+            <div className="w-11/12 bg-opacity-70 overflow-hidden py-2 relative ">
+              <div className="flex w-full relative h-full pb-[60%] ">
+                <div className="absolute inset-0 m-auto w-full flex ">
+                  <div className="h-full w-full bg-black opacity-60 z-10" />
+                  <img
+                    src={item.imgSrc}
+                    alt="img-about"
+                    className="absolute inset-0 w-full h-full object-contfain"
+                  />
                 </div>
-                <div className="p-2.5 bg-orange-800">
-                  <h4 className="lg:text-xl text-sm font-medium text-white">
-                    8
-                  </h4>
+
+                <div className="absolute flex h-fit bottom-5 z-10">
+                  <div className="p-2.5 bg-orange-500">
+                    <h4 className="lg:text-xl text-sm font-medium text-white ">
+                      {item.name}
+                    </h4>
+                  </div>
+                  <div className="p-2.5 bg-orange-800">
+                    <h4 className="lg:text-xl text-sm font-medium text-white">
+                      {item.year}
+                    </h4>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </>
   );

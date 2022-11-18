@@ -97,7 +97,7 @@ const Story = () => {
             {Testi.map((items, i) => (
               <SwiperSlide key={i}>
                 <div className="bg-transparent md:p-10">
-                  <div className="grid md:grid-cols-2 gap-14">
+                  <div className="grid lg:grid-cols-2 gap-14">
                     <div className="order-last md:order-first">
                       <div className="space-y-4 mb-10">
                         <h1 className="text-2xl text-neutral">Mercy Udoh</h1>
