@@ -249,3 +249,42 @@ a {
   /* background-position: censter; */
 }
 
+
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgb(83, 47, 0) 0%,
+    rgb(24, 16, 4) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgb(83, 47, 0) 0%,
+    rgb(24, 16, 4) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgb(83, 47, 0) 0%,
+    rgb(24, 16, 4) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgb(83, 47, 0) 0%,
+    rgb(24, 16, 4) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgb(83, 47, 0) 0%,
+    rgb(24, 16, 4) 100%
+  );
+  background-blend-mode: overlay;
+}

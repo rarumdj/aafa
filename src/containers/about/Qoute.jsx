@@ -11,10 +11,10 @@ const Qoute = () => {
           </div>
           <div className="flex items-center justify-center w-full">
             <p className="max-w-xl flex items-center justify-center lg:text-base text-sm text-[#896d5e] lg:mt-0 mt-20">
-              We are the highest level of resource support community the African
-              creative & brand can be a part of. Our unique selling position is
-              our ability to approach creative development and product
-              management from a consumer-centric lens.
+              We are building partnerships that foster a collaborative approach
+              to building infrastructure in the creative economy, investing in
+              human capital, and generating economic opportunities that will
+              bring mutual prosperity.
             </p>
           </div>
         </div>

@@ -116,7 +116,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/reroll"
+                    to="/workstation"
                     onClick={() => setClick(false)}>
                     Workstation
                   </Link>
@@ -124,17 +124,27 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/special-projects"
+                    to="/education"
                     onClick={() => setClick(false)}>
                     Education
                   </Link>
                 </li>
                 <li>
+                  <a
+                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    href="https://www.designindaba.com/articles/interviews/how-re-roll-station-helping-african-fashion-entrepreneurs-launch-their-brands"
+                    target="_blank"
+                    onClick={() => setClick(false)}
+                    rel="noreferrer">
+                    Press & Reviews
+                  </a>
+                </li>
+                <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/press-reviews"
+                    to="/contact"
                     onClick={() => setClick(false)}>
-                    Press & Reviews
+                    Contact
                   </Link>
                 </li>
               </ul>
@@ -191,7 +201,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/reroll"
+                        to="/workstation"
                         onClick={() => setClick(false)}>
                         Workstation
                       </Link>
@@ -199,17 +209,27 @@ const Navbar = () => {
                     <li>
                       <Link
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/special-projects"
+                        to="/education"
                         onClick={() => setClick(false)}>
                         Education
                       </Link>
                     </li>
                     <li>
+                      <a
+                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        href="https://www.designindaba.com/articles/interviews/how-re-roll-station-helping-african-fashion-entrepreneurs-launch-their-brands"
+                        target="_blank"
+                        onClick={() => setClick(false)}
+                        rel="noreferrer">
+                        Press & Reviews
+                      </a>
+                    </li>
+                    <li>
                       <Link
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/press-reviews"
+                        to="/contact"
                         onClick={() => setClick(false)}>
-                        Press & Reviews
+                        Contact
                       </Link>
                     </li>
                   </ul>

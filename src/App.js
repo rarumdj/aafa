@@ -8,6 +8,8 @@ import { Navbar, Footer } from "./components";
 import { About, Home, OurService } from "./pages";
 import { Works } from "./containers/work";
 import { Programs } from "./containers/programs";
+import { Contact } from "./containers/home";
+import PressReview from "./pages/PressReview";
 
 function App() {
   const location = useLocation();
@@ -35,6 +37,8 @@ function App() {
             <Route path="/services" element={<OurService />}></Route>
             <Route path="/ourwork" element={<Works />}></Route>
             <Route path="/programs" element={<Programs />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            {/* <Route path="/press-reviews" element={<PressReview />}></Route> */}
           </Routes>
         </main>
         <Footer />

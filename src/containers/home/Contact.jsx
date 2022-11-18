@@ -3,25 +3,81 @@ import { hashdynamic } from "../../assets/images";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-Contact md:bg-right-top bg-scroll bg-top bg-repeat-y bg-cover md:mt-60 mt-0 py-10 px-6 lg:px-16 flex justify-center">
-      <div className="flex md:flex-row flex-col gap-6 items-center w-screen max-w-[100rem]">
-        <div className="basis-1/3">
-          <img src={hashdynamic} alt="" className="object-scale-down h-full w-full" />
+    <>
+      <section id="contact" className="md:pt-24 pt-24 mb-10 flex justify-center">
+        <div className="flex md:flex-row flex-col gap-6 items-center w-screen max-w-[100rem]">
+          <div className="basis-1/3">
+            <img
+              src={hashdynamic}
+              alt=""
+              className="object-scale-down h-full w-full"
+            />
+          </div>
+          <div className="basis-4/6 space-y-8 p-16">
+            <h1 className="md:text-5xl text-3xl font-bold custom-font text-[#A44B2B]">
+              Contact Us
+            </h1>
+            <p className="md:text-base text-sm text-neutral">
+              <b>Launch your journey of growth.</b>
+              <br />
+              <br />
+              For general enquiries, project partnerships and engagements, the
+              best way to reach us is by emailing corporate@aplusagency.org or
+              filling out our contact form.
+            </p>
+            <p className="text-neutral font-bold">
+              Visit us at{" "}
+              <span className=" text-[#8c472e]">
+                30/33 Sanni Abacha Road, GRA, PortHarcourt, RV5000272.
+              </span>
+            </p>
+          </div>
         </div>
-        <div className="basis-4/6 space-y-8">
-          <h1 className="md:text-4xl text-3xl font-extrabold">Contact Us</h1>
-          <p className="md:text-base text-sm">
-            To get a hire purchase car from us, or discuss how we can work
-            together, reach out to us.
-            <br />
-            <br />
-            For drivers: call us on 080 3300 0345 or Message us on WhatsApp. For
-            corporate and partnership enquires, send us an email:
-            info@getrapyd.com
-          </p>
+      </section>
+      <div className="py-24 flex justify-center  bg-[#8c472e]">
+        <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
+          <div className="container md:px-24 mx-auto">
+            <div className="text-center mb-20">
+              <h1 className="sm:text-6xl text-2xl font-bold title-font text-white mb-4">
+                Have a project in mind?
+              </h1>
+              <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white md:px-10">
+                Let’s see if we’re a good fit. Book your consultation session.
+              </p>
+              <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                Book a consultation
+              </button>
+            </div>
+          </div>
+
+          <div className="container md:px-24 mx-auto">
+            <div className="text-center">
+              <h1 className="sm:text-6xl text-2xl font-bold title-font text-white mb-4">
+                Careers
+              </h1>
+              <div className="space-y-4">
+                <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white md:px-10">
+                  Don’t you think we would make a great team? Let’s see if we
+                  can smash goals together!
+                </p>
+
+                <div>
+                  <h4 className="md:text-3xl text-xl font-bold  text-white">Get in touch</h4>
+                  <p className="text-base font-bold leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white md:px-10">
+                    submit your position proposal and portfolio.
+                  </p>
+                </div>
+
+                <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white border-2 border-white p-4 md:px-10">
+                  Just pitch us your job description and send your CV over to 
+                 <span className="font-bold"> humans@aplusagency.org</span> 
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 
