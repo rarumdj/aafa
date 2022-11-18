@@ -68,12 +68,12 @@ a {
   object-fit: cover;
 }
 
-.swiper-pagination {
+.swiper-pagination-af {
   position: unset !important;
   display: block;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
+.swiper-pagination-af .swiper-pagination-bullet {
   width: 12px !important;
   height: 12px !important;
   border: 2px solid #A44B2B !important;
@@ -81,7 +81,7 @@ a {
   opacity: 1;
 }
 
-.swiper-pagination .swiper-pagination-bullet-active {
+.swiper-pagination-af .swiper-pagination-bullet-active {
   background: #A44B2B !important;
 }
 

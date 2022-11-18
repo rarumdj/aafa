@@ -77,7 +77,7 @@ const Eligibility = () => {
       disabledClass: "swiper-button-disabled",
     },
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiper-pagination-af",
       clickable: true,
       type: "bullets",
     },
@@ -138,7 +138,7 @@ const Eligibility = () => {
       </div>
       <div className="w-full justify-center md:hidden flex ">
         <div className="flex space-x-2 mt-6">
-        <div className="swiper-pagination"></div>
+        <div className="swiper-pagination-af"></div>
         </div>
       </div>
     </section>
