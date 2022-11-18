@@ -138,9 +138,9 @@ const AgencyStats = () => {
           </div>
         </div>
       </div>
-      <div className="space-y-4  md:hidden  block">
+      <div className="space-y-4  md:hidden  block pt-8">
         {Testi.map((item, i) => (
-          <div className="pt-8 justify-center flex" key={i}>
+          <div className="justify-center flex" key={i}>
             <div className="w-11/12 bg-opacity-70 overflow-hidden py-2 relative ">
               <div className="flex w-full relative h-full pb-[60%] ">
                 <div className="absolute inset-0 m-auto w-full flex ">
