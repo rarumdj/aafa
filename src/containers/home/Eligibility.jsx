@@ -11,7 +11,12 @@ import { ReactComponent as LeftIcon } from "../../assets/images/backArraw.svg";
 import { ReactComponent as RightIcon } from "../../assets/images/frontArrow.svg";
 import { ReactComponent as SmallArrowIcon } from "../../assets/images/smallArrow.svg";
 import { motion } from "framer-motion";
-import SwiperCore, { Controller, Autoplay, Pagination } from "swiper";
+import SwiperCore, {
+  Controller,
+  Autoplay,
+  Pagination,
+  Navigation,
+} from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -22,31 +27,33 @@ import "swiper/css/autoplay";
 
 const Testi = [
   {
-    name: "Kenedy James",
-    para: `I have been driving as a commercial driver for over 5 years
-  but the exceptional service and ease of getting a car from
-  Rapyd was amazing. I look forward to the day I'll have the
-  original documents as I already own this car in my mind.`,
+    title: "Emerge",
+    para: `Refine and develop your ideas into quality products for a ready market.`,
     imgSrc: james,
   },
   {
-    name: "Anthony",
-    para: `My experience with Rapyd has left me with nothing but a grateful heart. This is more than a business for me, Rapyd Cars empowered me to achieve my personal goals. Thank you Rapyd Cars.`,
+    title: "Oleku",
+    para: `Launch and scale your products in Europe.`,
     imgSrc: anthony,
   },
   {
-    name: "Sunday",
-    para: `Sometimes I have the impression that Rapyd is not a Nigerian company because of how fast and excellent their services are. The amount of concern they have for their Driver is highly commendable and I am more than grateful to be on this journey to own my own car. Thank you Rapyd.`,
+    title: "Export-Ready Conference",
+    para: `A step-by-step approach on expanding your market to the international market. `,
     imgSrc: sunday,
   },
   {
-    name: "Lucky",
-    para: `I feel like my name was what I experienced with Rapyd Cars. I feel so Lucky to be associated with a company like Rapyd Cars. Thank Rapyd for this opportunity to be my own Boss. `,
+    title: "Reroll",
+    para: `How to run an ethical and sustainable fashion business. `,
     imgSrc: lucky,
   },
   {
-    name: "Lazarus",
-    para: `Rapyd cars was my saviour after the ugly experience I had during the pandemic. I enjoyed the best of treatment as a driver that any organization has ever given to me. `,
+    title: "Digital Loom",
+    para: `What you think you know about woven fabrics Versus What it is.`,
+    imgSrc: lazarus,
+  },
+  {
+    title: "Be A+",
+    para: `Since 2018, we've helped millions of people discover their skills & talents, find a job, grow their creative career or business. Now, we are here to help accelerate economic recovery through our partnerships, projects, tools and training; so that local businesses, communities and people can grow stronger, faster and do more.`,
     imgSrc: lazarus,
   },
 ];
@@ -59,10 +66,15 @@ const Eligibility = () => {
     slidesPerView: window.innerWidth < 767 ? 1 : 3,
     spaceBetween: 10,
     loop: true,
-    modules: [Pagination, Controller],
+    modules: [Pagination, Controller, Navigation],
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".image-swiper-button-next",
+      prevEl: ".image-swiper-button-prev",
+      disabledClass: "swiper-button-disabled",
     },
     pagination: {
       el: ".swiper-pagination",
@@ -78,10 +90,10 @@ const Eligibility = () => {
         <div className="filter-none bg-[#f9f5f2] w-full h-full flex justify-end">
           <div className="h-full md:w-2/12 w-full py-2 z-10  md:flex items-center justify-center hidden">
             <div className="space-x-6 flex justify-center px-2">
-              <div className="p-2 lg:h-16 lg:w-16 h-10 w-10  rounded-full shadow-md flex items-center justify-center">
+              <div className="image-swiper-button-prev p-2 lg:h-16 lg:w-16 h-10 w-10  rounded-full shadow-md flex items-center justify-center hover:-translate-y-1 ease-in-out transition-all duration-200 cursor-pointer">
                 <LeftIcon className="h-7" />
               </div>
-              <div className="p-2 lg:h-16 lg:w-16 h-10 w-10 bg-[#A44B2B] rounded-full shadow-md flex items-center justify-center">
+              <div className="image-swiper-button-next p-2 lg:h-16 lg:w-16 h-10 w-10 bg-[#A44B2B] rounded-full shadow-md flex items-center justify-center hover:-translate-y-1 ease-in-out transition-all duration-200 cursor-pointer">
                 <RightIcon className="h-7" />
               </div>
             </div>
@@ -95,21 +107,25 @@ const Eligibility = () => {
               {Testi.map((items, i) => (
                 <SwiperSlide key={i}>
                   <div className="bg-transparent p-10">
-                    <div className="space-y-4 mb-20">
+                    <div className="space-y-4 mb-16">
                       <h1>0{i + 1}</h1>
                       <div className="border-b-2 border-orange-800 w-10" />
                     </div>
                     <div className="space-y-4 text-neutral">
                       <h1 className="custom-font font-bold md:text-2xl text-xl">
-                        Emerge
+                        {items.title}
                       </h1>
                       <div>
                         <p className="md:text-base text-sm mb-5 !text-[#52372a]">
-                          Refine and develop your ideas into quality products
-                          for a ready market
+                          {items.para}
                         </p>
-                        <a href="/" className="text-[#A44B2B] underline flex items-center">
-                          Find out more <span><SmallArrowIcon className="h-3 ml-2" /></span>
+                        <a
+                          href="/"
+                          className="text-[#A44B2B] underline flex items-center">
+                          Find out more{" "}
+                          <span>
+                            <SmallArrowIcon className="h-3 ml-2" />
+                          </span>
                         </a>
                       </div>
                     </div>
@@ -122,9 +138,7 @@ const Eligibility = () => {
       </div>
       <div className="w-full justify-center md:hidden flex ">
         <div className="flex space-x-2 mt-6">
-          <p>1</p>
-          <p>1</p>
-          <p>1</p>
+        <div className="swiper-pagination"></div>
         </div>
       </div>
     </section>

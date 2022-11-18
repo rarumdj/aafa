@@ -86,13 +86,13 @@ const Navbar = () => {
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     to="/about"
                     onClick={() => setClick(false)}>
-                    About Us
+                    About us
                   </Link>
                 </li>
                 <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/service"
+                    to="/services"
                     onClick={() => setClick(false)}>
                     Our Services
                   </Link>
@@ -100,17 +100,17 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/education"
+                    to="/programs"
                     onClick={() => setClick(false)}>
-                    Education
+                    Programs
                   </Link>
                 </li>
                 <li>
                   <Link
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/dive"
+                    to="/ourwork"
                     onClick={() => setClick(false)}>
-                    DIVE
+                    Initiatives - Our Work
                   </Link>
                 </li>
                 <li>
@@ -118,7 +118,7 @@ const Navbar = () => {
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     to="/reroll"
                     onClick={() => setClick(false)}>
-                    REROLL
+                    Workstation
                   </Link>
                 </li>
                 <li>
@@ -126,15 +126,7 @@ const Navbar = () => {
                     className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                     to="/special-projects"
                     onClick={() => setClick(false)}>
-                    Special projects
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                    to="/team"
-                    onClick={() => setClick(false)}>
-                    Our Team
+                    Education
                   </Link>
                 </li>
                 <li>
@@ -169,13 +161,13 @@ const Navbar = () => {
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                         to="/about"
                         onClick={() => setClick(false)}>
-                        About Us
+                        About us
                       </Link>
                     </li>
                     <li>
                       <Link
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/service"
+                        to="/services"
                         onClick={() => setClick(false)}>
                         Our Services
                       </Link>
@@ -183,17 +175,17 @@ const Navbar = () => {
                     <li>
                       <Link
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/education"
+                        to="/programs"
                         onClick={() => setClick(false)}>
-                        Education
+                        Programs
                       </Link>
                     </li>
                     <li>
                       <Link
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/dive"
+                        to="/ourwork"
                         onClick={() => setClick(false)}>
-                        DIVE
+                        Initiatives - Our Work
                       </Link>
                     </li>
                     <li>
@@ -201,7 +193,7 @@ const Navbar = () => {
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                         to="/reroll"
                         onClick={() => setClick(false)}>
-                        REROLL
+                        Workstation
                       </Link>
                     </li>
                     <li>
@@ -209,15 +201,7 @@ const Navbar = () => {
                         className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
                         to="/special-projects"
                         onClick={() => setClick(false)}>
-                        Special projects
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
-                        to="/team"
-                        onClick={() => setClick(false)}>
-                        Our Team
+                        Education
                       </Link>
                     </li>
                     <li>

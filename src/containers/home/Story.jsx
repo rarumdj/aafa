@@ -12,7 +12,12 @@ import {
 import { ReactComponent as LeftIcon } from "../../assets/images/backArraw.svg";
 import { ReactComponent as RightIcon } from "../../assets/images/frontArrow.svg";
 
-import SwiperCore, { Controller, Autoplay, Pagination } from "swiper";
+import SwiperCore, {
+  Controller,
+  Autoplay,
+  Pagination,
+  Navigation,
+} from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -60,20 +65,20 @@ const Story = () => {
     slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
-    modules: [Pagination, Controller],
+    modules: [Pagination, Controller, Navigation],
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
     },
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiper-pagination-story",
       clickable: true,
       type: "bullets",
     },
   };
 
   return (
-    <div className="pt-24 flex flex-col bg-gradient-to-b from-[#F4E9E5] to-transparent rounded-t-full h-">
+    <div className="pt-24 flex flex-col bg-gradient-to-b from-[#F4E9E5] to-transparent rounded-t-full">
       <div className="md:py-10 flex justify-center">
         <div className="flex mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
           <h1 className="md:text-5xl text-3xl text-[#A44B2B] custom-font font-bold text-center">
@@ -82,7 +87,7 @@ const Story = () => {
           </h1>
         </div>
       </div>
-      <div className="md:pt-24 pt-8 flex justify-center">
+      <div className="md:pt-24 pt-8 flex flex-col items-center justify-center">
         <div className="h-auto md:w-8/12 w-10/12 bg-transparent bg-opacity-70 overflow-hidden py-2 p-2 relative single-view">
           <Swiper
             {...params}
@@ -93,7 +98,7 @@ const Story = () => {
               <SwiperSlide key={i}>
                 <div className="bg-transparent md:p-10">
                   <div className="grid md:grid-cols-2 gap-14">
-                    <div>
+                    <div className="order-last md:order-first">
                       <div className="space-y-4 mb-10">
                         <h1 className="text-2xl text-neutral">Mercy Udoh</h1>
                         <div className="border-b-2 border-orange-800 w-10" />
@@ -143,6 +148,15 @@ const Story = () => {
               </SwiperSlide>
             ))}
           </Swiper>
+        </div>
+        <div className="h-auto md:w-8/12 w-10/12 bg-transparent md:py-2 py-6 md:px-10 relative single-view">
+          <div className="w-full md:justify-start justify-center flex ">
+            <div className="flex space-x-2">
+              {/* <div>1</div>
+          <div>1</div>*/}
+              <div className="swiper-pagination-story"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

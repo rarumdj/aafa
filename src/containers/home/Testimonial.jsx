@@ -3,17 +3,19 @@ import { valueimage } from "../../assets/images";
 
 const Testimonial = () => {
   return (
-    <div className="pt-24 flex justify-center">
+    <div className="md:pt-24 pt-10 flex justify-center">
       <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
         <div className="w-full flex justify-center">
           <h1 className="md:text-5xl text-3xl text-[#A44B2B] custom-font font-bold">Testimonials</h1>
         </div>
         <div className="text-neutral body-font">
           <div className="container md:py-24 py-14 mx-auto">
-            <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-              <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                <div className="rounded-lg h-s72 overflow-hidden shadow-md flex justify-center items-scenter p-10">
-                  <div className="space-y-4 py-12">
+            <div className="flex flex-1 flex-col">
+            {/* Count */}
+            <div className="flex flex-wrap -m-4">
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+              <div className="space-y-4 py-8">
                     <div className="h-12 w-12 bg-slate-600 rounded-full"></div>
                     <p className="text-base !text-[#52372a]">
                       A+Agency trained me, look how far I have grown
@@ -27,9 +29,10 @@ const Testimonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                <div className="rounded-lg h-7s2 overflow-hidden shadow-md flex justify-center items-scenter p-10">
-                  <div className="space-y-4 py-12">
+
+              <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                  <div className="space-y-4 py-8">
                     <div className="h-12 w-12 bg-slate-600 rounded-full"></div>
                     <p className="text-base !text-[#52372a]">
                       A+Agency thank you for sharing an inspiring learning
@@ -45,9 +48,10 @@ const Testimonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                <div className="rounded-lg h-s72 overflow-hidden shadow-md flex justify-center items-scenter p-10">
-                  <div className="space-y-4 py-12">
+
+              <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+              <div className="space-y-4 py-8">
                     <div className="h-12 w-12 bg-slate-600 rounded-full"></div>
                     <p className="text-base !text-[#52372a]">
                       I am glad to network with other creatives. Thank you A+
@@ -62,7 +66,10 @@ const Testimonial = () => {
                   </div>
                 </div>
               </div>
+
+             
             </div>
+          </div>
           </div>
         </div>
       </div>
