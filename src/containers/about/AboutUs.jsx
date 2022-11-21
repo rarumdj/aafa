@@ -1,4 +1,4 @@
-import { aboutone, aboutthree, abouttwo, ire_photo, line } from "../../assets/images";
+import { aboutone, aboutthree, abouttwo, harry, ire_photo, line } from "../../assets/images";
 import Teams from "../../components/Teams";
 
 const AboutUs = () => {
@@ -112,13 +112,13 @@ const AboutUs = () => {
               <div className="mt-10 grid md:grid-cols-4 gap-6">
                 <Teams
                   image={ire_photo}
-                  name=" Ireoluwa Soetan"
+                  name="Ireoluwa Soetan"
                   position={"Executive Assistant"}
                 />
                 <Teams
-                  image={ire_photo}
-                  name=" Ireoluwa Soetan"
-                  position={"Executive Assistant"}
+                  image={harry}
+                  name="Kesiena Harry"
+                  position={"Business Development"}
                 />
               </div>
             </div>

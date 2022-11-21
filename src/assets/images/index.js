@@ -35,7 +35,10 @@ export { default as creative_art } from "./creative_art.png";
 export { default as project_ex } from "./project_ex.png";
 export { default as live_impact } from "./live_impact.png";
 export { default as ire_photo } from "./ire_photo.png";
+export { default as harry } from "./harry.jpeg";
 export { default as mercy } from "./mercy.png";
+export { default as supported } from "./supported.jpg";
+export { default as community } from "./community.jpg";
 export { default as comma } from "./comma.svg";
 export { default as line } from "./line.svg";
 

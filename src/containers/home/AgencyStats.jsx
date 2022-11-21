@@ -1,32 +1,21 @@
 import React, { useState } from "react";
 import {
-  aboutone,
-  anthony,
-  creative_art,
-  james,
-  lazarus,
-  live_impact,
-  lucky,
-  project_ex,
-  righteligibility,
-  sunday,
+  community,
+  creative_art, live_impact, project_ex, supported
 } from "../../assets/images";
 import { ReactComponent as LeftIcon } from "../../assets/images/backArraw.svg";
 import { ReactComponent as RightIcon } from "../../assets/images/frontArrow.svg";
 
 import SwiperCore, {
-  Controller,
-  Autoplay,
-  Pagination,
-  Navigation,
+  Autoplay, Controller, Navigation, Pagination
 } from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/autoplay";
+import "swiper/css/pagination";
 
 const Testi = [
   {
@@ -47,12 +36,12 @@ const Testi = [
   {
     name: "Businesses Supported",
     year: `268`,
-    imgSrc: project_ex,
+    imgSrc: supported,
   },
   {
     name: "Community Members",
     year: `2,000+`,
-    imgSrc: project_ex,
+    imgSrc: community,
   },
 ];
 
@@ -100,7 +89,7 @@ const AgencyStats = () => {
               <SwiperSlide key={i}>
                 <div className="flex w-full relative h-full ">
                   <div className="absolute inset-0 m-auto w-full h-[80%] flex">
-                    <div className="h-full w-full bg-black opacity-60 z-10 " />
+                    <div className="h-full w-full bg-black opacity-50 z-10 " />
                     <img
                       src={items.imgSrc}
                       alt="img-about"
@@ -144,7 +133,7 @@ const AgencyStats = () => {
             <div className="w-11/12 bg-opacity-70 overflow-hidden py-2 relative ">
               <div className="flex w-full relative h-full pb-[60%] ">
                 <div className="absolute inset-0 m-auto w-full flex ">
-                  <div className="h-full w-full bg-black opacity-60 z-10" />
+                  <div className="h-full w-full bg-black opacity-50 z-10" />
                   <img
                     src={item.imgSrc}
                     alt="img-about"
