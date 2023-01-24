@@ -9,11 +9,11 @@ const Programs = () => {
           <div className="grid md:grid-cols-2 -m-4 items-center mt-10">
             <div className="p-4 w-full order-last">
               <div className="p-4">
-                <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
+                <h2 className="text-accent-black text-2xl font-medium mb-4">
                   Dive Fashion Program
                 </h2>
                 <div className="flex items-center">
-                  <p className="lg:text-base text-sm text-[#896d5e]">
+                  <p className="lg:text-base text-sm text-accent-black">
                     The DIVE PROGRAM is your perfect HANDS-ON six weeks
                     intensive program to help fashion entrepreneurs launch their
                     fashion brand into the US market and build and run an
@@ -23,14 +23,14 @@ const Programs = () => {
                     see their brand grow.
                   </p>
                 </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                <button className="btn btn-primary btn-wide mt-8 bg-accent-black hover:bg-accent-black border-none rounded-none">
                   Discover More
                 </button>
               </div>
             </div>
             <div className="p-4  w-full">
               <div className="p-4 w-full">
-                <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
+                <div className="flex border-4 rounded-2xl  w-full border-accent-black relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
                       src={aboutone}
@@ -45,7 +45,7 @@ const Programs = () => {
         </div>
       </div>
 
-      <div className="md:py-24 py-20 pt-10 flex justify-center bg-[#a44b2b]">
+      <div className="md:py-24 py-20 pt-10 flex justify-center bg-accent-black">
         <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
           <div className="grid md:grid-cols-2 -m-4 items-center">
             <div className="p-4 w-full order-last">
@@ -64,7 +64,7 @@ const Programs = () => {
                     emphasizes demand-driven systems for skill acquisition.
                   </p>
                 </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                <button className="btn btn-primary btn-wide mt-8 bg-white text-accent-black hover:bg-white border-none rounded-none">
                   Discover More
                 </button>
               </div>
@@ -91,25 +91,25 @@ const Programs = () => {
           <div className="grid md:grid-cols-2 -m-4 items-center">
             <div className="p-4 w-full order-last">
               <div className="p-4">
-                <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
+                <h2 className="text-accent-black text-2xl font-medium mb-4">
                   Business of Fashion Incubator Program
                 </h2>
                 <div className="flex items-center">
-                  <p className="lg:text-base text-sm text-[#896d5e]">
+                  <p className="lg:text-base text-sm text-accent-black">
                     The Business of Fashion Incubator, a seminar style event
                     that offers creatives the opportunity to gain awareness of
                     the breadth of artistic and non-artistic livelihood
                     opportunities available across creative sector value chains.
                   </p>
                 </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                <button className="btn btn-primary btn-wide mt-8 bg-accent-black hover:bg-accent-black border-none rounded-none">
                   Discover More
                 </button>
               </div>
             </div>
             <div className="p-4  w-full">
               <div className="p-4 w-full">
-                <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
+                <div className="flex border-4 rounded-2xl  w-full border-accent-black relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
                       src={aboutone}
@@ -124,7 +124,7 @@ const Programs = () => {
         </div>
       </div>
 
-      <div className="md:py-24 py-20 pt-10 flex justify-center bg-[#a44b2b]">
+      <div className="md:py-24 py-20 pt-10 flex justify-center bg-accent-black">
         <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
           <div className="grid md:grid-cols-2 -m-4 items-center">
             <div className="p-4 w-full order-last">
@@ -140,7 +140,7 @@ const Programs = () => {
                     to become change agents in their communities and workspace.
                   </p>
                 </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                <button className="btn btn-primary btn-wide mt-8 bg-white text-accent-black hover:bg-white border-none rounded-none">
                   Discover More
                 </button>
               </div>
@@ -161,7 +161,6 @@ const Programs = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

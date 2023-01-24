@@ -27,17 +27,17 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10 space-y-2">
               <li>
-                <Link className=" hover:text-[#A44B2B]" to="/">
+                <Link className=" hover:text-accent-black" to="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link className=" hover:text-[#A44B2B]" to="/about">
+                <Link className=" hover:text-accent-black" to="/about">
                   Our Service
                 </Link>
               </li>
               <li>
-                <Link className=" hover:text-[#A44B2B]" to="/contact">
+                <Link className=" hover:text-accent-black" to="/contact">
                   Our Work
                 </Link>
               </li>
@@ -49,17 +49,17 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10 space-y-2">
               <li>
-                <Link className=" hover:text-[#A44B2B]" to="/">
+                <Link className=" hover:text-accent-black" to="/">
                   Education
                 </Link>
               </li>
               <li>
-                <Link className=" hover:text-[#A44B2B]" to="/">
+                <Link className=" hover:text-accent-black" to="/">
                   Testimonials
                 </Link>
               </li>
               <li>
-                <Link className=" hover:text-[#A44B2B]" to="/">
+                <Link className=" hover:text-accent-black" to="/">
                   Press reviews
                 </Link>
               </li>
@@ -70,7 +70,7 @@ const Footer = () => {
               Contact us
             </h2>
             <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-              <a className="text-[#A44B2B]0" href="/">
+              <a className="text-accent-black0" href="/">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
@@ -81,7 +81,7 @@ const Footer = () => {
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a className="ml-3 text-[#A44B2B]0" href="/">
+              <a className="ml-3 text-accent-black0" href="/">
                 <svg
                   fill="currentColor"
                   stroke-linecap="round"
@@ -92,7 +92,7 @@ const Footer = () => {
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
               </a>
-              <a className="ml-3 text-[#A44B2B]0" href="/">
+              <a className="ml-3 text-accent-black0" href="/">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -105,7 +105,7 @@ const Footer = () => {
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a className="ml-3 text-[#A44B2B]0" href="/">
+              <a className="ml-3 text-accent-black0" href="/">
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
@@ -125,7 +125,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container mx-auto border-t border-gray-200 py-8 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p className="text-[#A44B2B]0 text-sm text-center sm:text-left">
+        <p className="text-accent-black text-sm text-center sm:text-left">
           © Copyright 2021 A+ AGENCY. All rights reserved.
           {/* <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a> */}
         </p>

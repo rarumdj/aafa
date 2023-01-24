@@ -34,6 +34,7 @@ export { default as scale_logo } from "./scale_logo.png";
 export { default as creative_art } from "./creative_art.png";
 export { default as project_ex } from "./project_ex.png";
 export { default as live_impact } from "./live_impact.png";
+export { default as BJImage } from "./bujeti-product.png";
 export { default as ire_photo } from "./ire_photo.png";
 export { default as harry } from "./harry.jpeg";
 export { default as mercy } from "./mercy.png";

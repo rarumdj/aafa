@@ -9,7 +9,7 @@ const EventsNews = () => {
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col">
               <div className="h-1 bg-gray-200 rounded overflow-hidden">
-                <div className="w-24 h-full bg-[#a44b2b]"></div>
+                <div className="w-24 h-full bg-accent-black"></div>
               </div>
               <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
                 <h1 className="sm:w-2/5 text-neutral font-medium title-font text-2xl mb-2 sm:mb-0">
@@ -41,7 +41,7 @@ const EventsNews = () => {
                 </p>
                 <a
                   href="/"
-                  className="text-[#a44b2b] inline-flex items-center mt-3">
+                  className="text-accent-black inline-flex items-center mt-3">
                   Learn More
                   <svg
                     fill="none"
@@ -74,7 +74,7 @@ const EventsNews = () => {
                 </p>
                 <a
                   href="/"
-                  className="text-[#a44b2b] inline-flex items-center mt-3">
+                  className="text-accent-black inline-flex items-center mt-3">
                   Learn More
                   <svg
                     fill="none"
@@ -107,7 +107,7 @@ const EventsNews = () => {
                 </p>
                 <a
                   href="/"
-                  className="text-[#a44b2b] inline-flex items-center mt-3">
+                  className="text-accent-black inline-flex items-center mt-3">
                   Learn More
                   <svg
                     fill="none"

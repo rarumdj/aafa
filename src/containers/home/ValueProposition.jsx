@@ -4,7 +4,7 @@ const ValueProposition = () => {
       <div className="px-6 lg:px-16 mb-10">
         <h1 className="md:text-4xl text-3xl font-bold px-4 text-black">
           Value Proposition -{" "}
-          <span className="font-normal text-[#a44b2b]">Our Approach</span>
+          <span className="font-normal text-accent-black">Our Approach</span>
         </h1>
       </div>
       <div className="flex lg:flex-row flex-col mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
@@ -12,13 +12,13 @@ const ValueProposition = () => {
           {/* Count */}
           <div className="flex flex-wrap w-full">
             <div className="w-full lg:w-7/12 lg:px-4 lg:h-[343px] mb-8 lg:block hidden">
-              <div className="w-full h-full bg-[#EFECE9] border border-[#a44b2b] rounded-md flex flex-col justify-center">
+              <div className="w-full h-full bg-[#EFECE9] border border-accent-black rounded-md flex flex-col justify-center">
                 <div className="p-6">
                   <h2 className="font-bold text-black text-lg">
                     Training, coaching & capacity building
                   </h2>
-                  <div className="bg-[#a44b2b] h-0.5 rounded-md w-12 my-5" />
-                  <p className="text-[#896d5e] mt-8">
+                  <div className="bg-accent-black h-0.5 rounded-md w-12 my-5" />
+                  <p className="text-accent-black mt-8">
                     complementary to our development & investment activities.
                     Training programs designed for our creatives & brands in
                     collaboration with our global partners in USA & Europe.
@@ -28,11 +28,11 @@ const ValueProposition = () => {
             </div>
 
             <div className="w-full lg:w-5/12 lg:px-4 lg:h-[343px] mb-8">
-              <div className="w-full h-full bg-[#F5F5F5] border border-[#a44b2b]  rounded-md flex flex-col justify-center">
+              <div className="w-full h-full bg-[#F5F5F5] border border-accent-black  rounded-md flex flex-col justify-center">
                 <div className="p-6">
                   <h2 className="font-bold text-black text-lg">Development</h2>
-                  <div className="bg-[#a44b2b] h-0.5 rounded-md w-12 my-5" />
-                  <p className="text-[#896d5e] mt-8">
+                  <div className="bg-accent-black h-0.5 rounded-md w-12 my-5" />
+                  <p className="text-accent-black mt-8">
                     Strategic & operational support of creatives & brands
                     wishing to rely on a trusted & proven partner to sustain its
                     local & global growth.
@@ -43,13 +43,13 @@ const ValueProposition = () => {
 
             {/* Extra */}
             <div className="w-full lg:w-7/12 lg:px-4 lg:h-[343px] mb-8 lg:hidden block">
-              <div className="w-full h-full bg-[#EFECE9] border border-[#a44b2b]  rounded-md flex flex-col justify-center">
+              <div className="w-full h-full bg-[#EFECE9] border border-accent-black  rounded-md flex flex-col justify-center">
                 <div className="p-6">
                   <h2 className="font-bold text-black text-lg">
                     Training, coaching & capacity building
                   </h2>
-                  <div className="bg-[#a44b2b] h-0.5 rounded-md w-12 my-5" />
-                  <p className="text-[#896d5e] mt-8">
+                  <div className="bg-accent-black h-0.5 rounded-md w-12 my-5" />
+                  <p className="text-accent-black mt-8">
                     complementary to our development & investment activities.
                     Training programs designed for our creatives & brands in
                     collaboration with our global partners in USA & Europe.
@@ -59,11 +59,11 @@ const ValueProposition = () => {
             </div>
 
             <div className="w-full lg:w-4/12 lg:px-4 lg:h-[288px] lg:mb-0 mb-8">
-              <div className="w-full h-full bg-[#F5F5F5] border border-[#a44b2b]  rounded-md flex flex-col justify-center">
+              <div className="w-full h-full bg-[#F5F5F5] border border-accent-black  rounded-md flex flex-col justify-center">
                 <div className="p-6">
                   <h2 className="font-bold text-black text-lg">Investment</h2>
-                  <div className="bg-[#a44b2b] h-0.5 rounded-md w-12 my-5" />
-                  <p className="text-[#896d5e] mt-8">
+                  <div className="bg-accent-black h-0.5 rounded-md w-12 my-5" />
+                  <p className="text-accent-black mt-8">
                     Incubation, acceleration, capital growth in indigenous
                     brands.
                   </p>
@@ -71,12 +71,12 @@ const ValueProposition = () => {
               </div>
             </div>
             <div className="w-full lg:w-8/12 lg:px-4 lg:h-[288px]">
-              <div className="w-full h-full bg-[#555555] border border-[#a44b2b]  rounded-md flex flex-col justify-center">
+              <div className="w-full h-full bg-[#555555] border border-accent-black  rounded-md flex flex-col justify-center">
                 <div className="p-6">
                   <h2 className="font-bold text-white text-lg">
                     Exposure & Promotion
                   </h2>
-                  <div className="bg-[#a44b2b] h-0.5 rounded-md w-12 my-5" />
+                  <div className="bg-accent-black h-0.5 rounded-md w-12 my-5" />
                   <p className="text-white mt-8">
                     Marketing communications support to help creatives & brands
                     broaden awareness and connect with new audiences, bringing

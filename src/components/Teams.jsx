@@ -16,10 +16,10 @@ function Teams({ name, image, blurImg, position }) {
         />
       </div>
       {name && (
-        <div className="px-6 py-3 gradient__bg h-20 min-w-max max-w-screen flex-none ">
+        <div className="px-6 py-3 bg-white h-20 min-w-max max-w-screen flex-none ">
           <div className="flex flex-col justify-between">
-            <h1 className="text-white text-sm font-bold lg:text-lg">{name}</h1>
-            <p className="text-white text-sm font-bold">{position}</p>
+            <h1 className="text-accent-black text-sm font-bold lg:text-lg">{name}</h1>
+            <p className="text-accent-black text-sm font-bold">{position}</p>
           </div>
         </div>
       )}

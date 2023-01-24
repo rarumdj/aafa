@@ -7,6 +7,9 @@ module.exports = {
         "hero-pattern": "url(assets/images/aafabanner.jpg)",
         "value-prep": "url(assets/images/valueimage.jpg)",
       },
+      colors: {
+        "accent-black": "#232323",
+      },
       backgroundPosition: {
         "custom-90": "90%",
         "custom-100": "100% 0",

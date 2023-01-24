@@ -1,4 +1,11 @@
-import { aboutone, aboutthree, abouttwo, harry, ire_photo, line } from "../../assets/images";
+import {
+  aboutone,
+  aboutthree,
+  abouttwo,
+  harry,
+  ire_photo,
+  line,
+} from "../../assets/images";
 import Teams from "../../components/Teams";
 
 const AboutUs = () => {
@@ -9,28 +16,28 @@ const AboutUs = () => {
           <div className="grid md:grid-cols-2 -m-4 items-center">
             <div className="p-4 w-full order-last">
               <div className="p-4">
-                <h2 className="text-[#a44b2b] text-5xl font-medium mb-4 md:block hidden">
+                <h2 className="text-accent-black text-5xl font-medium mb-4 md:block hidden">
                   The Agency
                 </h2>
                 <div className="flex items-center">
                   <img src={line} alt="line" className="lg:block hidden" />
-                  <p className="lg:p-10 p-0 lg:text-base text-sm text-[#896d5e]">
-                    We are the highest level of resource support for the
-                    community the African creative & brand can be a part of.{" "}
-                    <br />
-                    <br /> A+ fashion Agency aims to accelerate the emergence of
-                    the African creative & brand on the international scene by
-                    positioning itself as the key strategic partner.
+                  <p className="lg:p-10 p-0 lg:text-base text-sm text-accent-black">
+                    In our pursuit to become Africa's foremost innovative
+                    creative business consultancy and development agency,
+                    specializing in launching and scaling successful fashion
+                    retail companies in Africa with a goal to inspire business
+                    growth and develop fashion entrepreneurs with global
+                    competitive influence.
                   </p>
                 </div>
               </div>
             </div>
             <div className="p-4  w-full">
               <div className="p-4 w-full">
-                <h2 className="text-[#a44b2b] text-5xl font-medium mb-6 md:hidden block">
+                <h2 className="text-accent-black text-5xl font-medium mb-6 md:hidden block">
                   About Us
                 </h2>
-                <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
+                <div className="flex border-4 rounded-2xl  w-full border-accent-black relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
                       src={aboutone}
@@ -45,17 +52,17 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="md:py-24 py-20 pt-10 flex justify-center bg-[#a44b2b]">
+      <div className="md:py-24 py-20 pt-10 flex justify-center bg-accent-black">
         <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center items-center w-screen max-w-[100rem]">
           <div className="w-10/12">
-            <div className="grid md:grid-cols-2 -m-4 border-b-2 border-[#a45f43] pb-8">
+            <div className="grid md:grid-cols-2 -m-4 border-b-2 border-white pb-8">
               <div className="md:p-4 w-full order-last">
                 <div className="md:p-4">
                   <h2 className="text-white text-2xl font-medium">
                     Ireoluwa Soetan
                   </h2>
                   <p className="text-sm font-bold mb-4 text-gray-300">
-                    (Founder/CEO){" "}
+                    (Founder/CEO)
                   </p>
                   <div className="flex flex-col items-center">
                     <p className="lg:text-base text-sm text-white">
@@ -85,17 +92,14 @@ const AboutUs = () => {
                       Station lab, Dive fashion program, Emerge program,
                       business incubator (BOFI), Pattern Academy, Incubator,
                       Free Class and Creative Cohort. Ireoluwa was recently a
-                      mentor on the shetrades platform by FCMB
+                      mentor on the shetrades platform by FCMB.
                     </p>
                   </div>
                 </div>
               </div>
               <div className="p-4  w-full flex justify-end ">
                 <div className="p-4 w-fit">
-                <Teams
-                  image={ire_photo}
-                 
-                />
+                  <Teams image={ire_photo} />
                 </div>
               </div>
             </div>
@@ -136,8 +140,8 @@ const AboutUs = () => {
               <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500 md:px-10">
                 Let’s see if we’re a good fit. Book your consultation session.
               </p>
-              <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
-              Book a consultation
+              <button className="btn btn-primary btn-wide mt-8 bg-accent-black hover:bg-accent-black border-none rounded-none">
+                Book a consultation
               </button>
             </div>
           </div>

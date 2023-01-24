@@ -13,8 +13,12 @@ const OurExperience = () => {
     <div className="md:py-24 py-20 flex justify-center">
       <div className="flex flex-col mx-auto px-6 lg:px-16 item justify-center w-screen max-w-[100rem]">
         <div className="w-full flex flex-col items-center justify-center mb-10">
-          <h1 className="text-3xl text-[#A44B2B] font-bold">Our Experience</h1>
-          <p>Brands we’ve delightfully worked with</p>
+          <h1 className="text-3xl text-accent-black font-bold">
+            Our Experience
+          </h1>
+          <p className="text-accent-black ">
+            Brands we’ve delightfully worked with
+          </p>
         </div>
         <div className="flex flex-col ">
           {/* Count */}

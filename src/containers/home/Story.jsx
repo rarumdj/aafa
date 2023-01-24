@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import {
-    mercy
-} from "../../assets/images";
+import { mercy } from "../../assets/images";
 
 import SwiperCore, {
-    Autoplay, Controller, Navigation, Pagination
+  Autoplay,
+  Controller,
+  Navigation,
+  Pagination,
 } from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper React components
@@ -55,10 +56,10 @@ const Story = () => {
   };
 
   return (
-    <div className="pt-24 flex flex-col bg-gradient-to-b from-[#F4E9E5] to-transparent rounded-t-full">
+    <div className="pt-24 flex flex-col bg-gradient-to-b from-[#f1eeec] to-transparent rounded-t-full">
       <div className="md:py-10 flex justify-center">
         <div className="flex mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
-          <h1 className="md:text-5xl text-3xl text-[#A44B2B] custom-font font-bold text-center">
+          <h1 className="md:text-5xl text-3xl text-accent-black custom-font font-bold text-center">
             Story of an <br />
             entrepreneur
           </h1>
@@ -78,12 +79,10 @@ const Story = () => {
                     <div className="order-last md:order-first">
                       <div className="space-y-4 mb-10">
                         <h1 className="text-2xl text-neutral">{items.name}</h1>
-                        <div className="border-b-2 border-orange-800 w-10" />
+                        <div className="border-b-2 border-accent-black w-10" />
                       </div>
                       <div className="space-y-4">
-                        <p className="!text-[#52372a]">
-                         {items.para}
-                        </p>
+                        <p className="text-accent-black">{items.para}</p>
                       </div>
                     </div>
                     <div>

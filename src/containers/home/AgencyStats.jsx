@@ -1,13 +1,19 @@
 import React, { useState } from "react";
 import {
   community,
-  creative_art, live_impact, project_ex, supported
+  creative_art,
+  live_impact,
+  project_ex,
+  supported,
 } from "../../assets/images";
 import { ReactComponent as LeftIcon } from "../../assets/images/backArraw.svg";
 import { ReactComponent as RightIcon } from "../../assets/images/frontArrow.svg";
 
 import SwiperCore, {
-  Autoplay, Controller, Navigation, Pagination
+  Autoplay,
+  Controller,
+  Navigation,
+  Pagination,
 } from "swiper";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper React components
@@ -73,7 +79,7 @@ const AgencyStats = () => {
     <>
       <div className="pt-14 flex justify-center">
         <div className="flex mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
-          <h1 className="md:text-3xl text-xl text-[#A44B2B] font-bold">
+          <h1 className="md:text-3xl text-xl text-accent-black font-bold">
             Key A+ 2022 Agency Stats
           </h1>
         </div>
@@ -121,7 +127,7 @@ const AgencyStats = () => {
             <div className="image-swiper-button-prev p-2 lg:h-16 lg:w-16 h-10 w-10  rounded-full shadow-md flex items-center justify-center hover:-translate-y-1 ease-in-out transition-all duration-200 cursor-pointer">
               <LeftIcon className="h-7" />
             </div>
-            <div className="image-swiper-button-next p-2 lg:h-16 lg:w-16 h-10 w-10 bg-[#A44B2B] rounded-full shadow-md flex items-center justify-center hover:-translate-y-1 ease-in-out transition-all duration-200 cursor-pointer">
+            <div className="image-swiper-button-next p-2 lg:h-16 lg:w-16 h-10 w-10 bg-accent-black rounded-full shadow-md flex items-center justify-center hover:-translate-y-1 ease-in-out transition-all duration-200 cursor-pointer">
               <RightIcon className="h-7" />
             </div>
           </div>

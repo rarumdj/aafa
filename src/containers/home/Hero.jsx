@@ -4,18 +4,22 @@ import { aafabanner } from "../../assets/images";
 
 const Hero = () => {
   return (
-    <section className="h-[700px] lg:h-full">
-      <div className="hero lg:min-h-[664px] bg-hero-pattern bg-no-repeat lg:bg-custom-100 bg-custom-90 lg:object-contain object-cover relative w-screen h-[424px]">
+    <section className="h-[800px] lg:h-full">
+      <div className="hero lg:min-h-[864px] bg-hero-pattern bg-no-repeat lg:bg-custom-100 bg-custom-90 lg:object-contain object-cover relative w-screen h-[424px]">
         {/* <div className="hero-overlay bg-opacity-60"></div> */}
         <div className="hero-content lg:block hidden text-left absolute pl-32 left-0">
           <div className="max-w-xl">
             <h1 className="mb-5 text-5xl font-bold text-neutral custom-font">
               Welcome to A+
             </h1>
-            <p className="mb-5 text-[#896d5e] leading-7 text-base">
-            The creatives from Africa are cut from a collection of rough diamonds but with thorough refining and polishing they are bound to take over the globe!
+            <p className="mb-5 text-accent-black leading-7 text-base">
+              The creatives from Africa are cut from a collection of rough
+              diamonds but with thorough refining and polishing they are bound
+              to take over the globe!
             </p>
-            <button className="btn btn-primary bg-[#c57354] hover:bg-[#a44b2b] border-none" style={{ textTransform:'none' }}>
+            <button
+              className="btn btn-primary bg-accent-black hover:bg-accent-black border-none"
+              style={{ textTransform: "none" }}>
               Find out more
             </button>
           </div>
@@ -24,15 +28,15 @@ const Hero = () => {
 
       <div className="hero-content lg:hidden block text-left absolute pl-8 left-0">
         <div className="max-w-xl">
-          <h1 className="mb-5 custom-font text-[#A44B2B] lg:text-5xl text-3xl font-bold">
+          <h1 className="mb-5 custom-font text-accent-black lg:text-5xl text-3xl font-bold">
             Welcome to A+
           </h1>
-          <p className="mb-5 text-[#896d5e] lg:text-base text-sm">
-            The creatives from Africa are cut from a collection of rough diamonds
-            but with thorough refining and polishing they are bound to take over
-            the globe!
+          <p className="mb-5 text-accent-black lg:text-base text-sm">
+            The creatives from Africa are cut from a collection of rough
+            diamonds but with thorough refining and polishing they are bound to
+            take over the globe!
           </p>
-          <button className="btn btn-primary bg-[#c57354] hover:bg-[#a44b2b] border-none">
+          <button className="btn btn-primary bg-[#c57354] hover:bg-accent-black border-none">
             Find out more
           </button>
         </div>

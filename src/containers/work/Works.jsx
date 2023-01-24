@@ -5,7 +5,7 @@ const Works = () => {
   return (
     <section
       id="value"
-      className="bg-[#f6efec] md:bg-contain bg-auto pb-16 lg:pt-44 pt-32 ">
+      className="bg-[#f1eeec] md:bg-contain bg-auto pb-16 lg:pt-44 pt-32 ">
       <div className="w-screen max-w-[100rem] mx-auto ">
         <div className="flex lg:flex-row flex-col mx-auto  px-6 justify-center">
           <div className="flex-initial min-w-[30%] lg:pt-0 pt-10">
@@ -27,11 +27,11 @@ const Works = () => {
             {/* Count */}
             <div className="flex flex-wrap -m-4">
               <div className="p-4 lg:w-1/3">
-                <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                <div className="h-full bg-[#EFECE9]  border border-accent-black bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     Reroll Station Lab
                   </h1>
-                  <p className="leading-relaxed mb-5 text-[#896d5e]">
+                  <p className="leading-relaxed mb-5 text-accent-black">
                     The RE-ROLL STATION is a hands-on intensive digital program
                     to help fashion entrepreneurs in Recycling fashion waste
                     launch their fashion brand into the global market and build
@@ -40,18 +40,18 @@ const Works = () => {
                     will provide creative entrepreneurs with actionable steps to
                     grow their ethical brands.
                   </p>
-                  <button className="btn btn-primary btn-block bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  <button className="btn btn-primary btn-block bg-accent-black hover:bg-accent-black border-none rounded-none">
                     Find out more
                   </button>
                 </div>
               </div>
 
               <div className="p-4 lg:w-1/3">
-                <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                <div className="h-full bg-[#EFECE9]  border border-accent-black bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     Digital Loom
                   </h1>
-                  <p className="leading-relaxed mb-5 text-[#896d5e]">
+                  <p className="leading-relaxed mb-5 text-accent-black">
                     Digital Loom aims to research & discover ways through which
                     traditional weaving craftsmen/centers in Nigeria can
                     collaborate with futuristic designers, Digital creators,
@@ -59,69 +59,69 @@ const Works = () => {
                     their techniques, making their products more attractive to
                     the younger generation while generating wealth.
                   </p>
-                  <button className="btn btn-primary btn-block bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  <button className="btn btn-primary btn-block bg-accent-black hover:bg-accent-black border-none rounded-none">
                     Find out more
                   </button>
                 </div>
               </div>
 
               <div className="p-4 lg:w-1/3">
-                <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                <div className="h-full bg-[#EFECE9]  border border-accent-black bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
-                    Export Ready Conference
+                    Going Global (Export Ready Conference)
                   </h1>
-                  <p className="leading-relaxed mb-5 text-[#896d5e]">
+                  <p className="leading-relaxed mb-5 text-accent-black">
                     A Hybrid style conference that offers creatives in fashion
                     design, Make-up, photography, styling, hair-styling, fabric
                     dealers and accessory design, opportunity to gain awareness
                     of the breadth of artistic and non-artistic livelihood
                     opportunities available across creative sector value chains
-                    through international trade and export
+                    through international trade and export.
                   </p>
-                  <button className="btn btn-primary btn-block bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  <button className="btn btn-primary btn-block bg-accent-black hover:bg-accent-black border-none rounded-none">
                     Find out more
                   </button>
                 </div>
               </div>
               {/* 
               <div className="p-4 lg:w-1/3">
-                <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                <div className="h-full bg-[#EFECE9]  border border-accent-black bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     The Creative Cohort
                   </h1>
-                  <p className="leading-relaxed mb-5 text-[#896d5e]">
+                  <p className="leading-relaxed mb-5 text-accent-black">
                     An innovative development community that runs a creative
                     cooperative society that offers financial services, business
                     support services and growth opportunities for creative
                     entrepreneurs.
                   </p>
-                  <button className="btn btn-primary btn-block bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  <button className="btn btn-primary btn-block bg-accent-black hover:bg-accent-black border-none rounded-none">
                     Schedule an appointment
                   </button>
                 </div>
               </div>
 
               <div className="p-4 lg:w-1/3">
-                <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                <div className="h-full bg-[#EFECE9]  border border-accent-black bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     Shereos
                   </h1>
-                  <p className="leading-relaxed mb-5 text-[#896d5e]">
+                  <p className="leading-relaxed mb-5 text-accent-black">
                     We are the highest level of resource support community the
                     African creative & brand can be a part of.
                   </p>
-                  <button className="btn btn-primary btn-block bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  <button className="btn btn-primary btn-block bg-accent-black hover:bg-accent-black border-none rounded-none">
                     Apply Now
                   </button>
                 </div>
               </div>
 
               <div className="p-4 lg:w-1/3">
-                <div className="h-full bg-[#EFECE9]  border border-[#a44b2b] bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
+                <div className="h-full bg-[#EFECE9]  border border-accent-black bg-opacity-75 px-8 py-12 rounded-lg overflow-hidden relative">
                   <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                     Oleku
                   </h1>
-                  <p className="leading-relaxed mb-5 text-[#896d5e]">
+                  <p className="leading-relaxed mb-5 text-accent-black">
                     Oleku Galleria is an inclusive and supportive ecosystem to
                     help women-owned businesses develop robust international
                     trade relationships, easy international market entry,
@@ -133,7 +133,7 @@ const Works = () => {
                     in-store Pop-up concept display (timed shopping event that
                     sells carefully curated and unique selection of brands).
                   </p>
-                  <button className="btn btn-primary btn-block bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                  <button className="btn btn-primary btn-block bg-accent-black hover:bg-accent-black border-none rounded-none">
                     Schedule a call
                   </button>
                 </div>
@@ -145,25 +145,25 @@ const Works = () => {
           <div className="grid md:grid-cols-2 -m-4 items-center">
             <div className="p-4 w-full order-last md:order-first">
               <div className="p-4">
-                <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
+                <h2 className="text-accent-black text-2xl font-medium mb-4">
                   The Creative Cohort
                 </h2>
                 <div className="flex items-center">
-                  <p className="lg:text-base text-sm text-[#896d5e]">
+                  <p className="lg:text-base text-sm text-accent-black">
                     An innovative development community that runs a creative
                     cooperative society that offers financial services, business
                     support services and growth opportunities for creative
                     entrepreneurs.
                   </p>
                 </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                <button className="btn btn-primary btn-wide mt-8 bg-accent-black hover:bg-accent-black border-none rounded-none">
                   Discover More
                 </button>
               </div>
             </div>
             <div className="p-4  w-full">
               <div className="p-4 w-full">
-                <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
+                <div className="flex border-4 rounded-2xl  w-full border-accent-black relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
                       src={aboutone}
@@ -179,11 +179,11 @@ const Works = () => {
           <div className="grid md:grid-cols-2 -m-4 items-center mt-10">
             <div className="p-4 w-full order-last">
               <div className="p-4">
-                <h2 className="text-[#a44b2b] text-2xl font-medium mb-4">
+                <h2 className="text-accent-black text-2xl font-medium mb-4">
                   Oleku
                 </h2>
                 <div className="flex items-center">
-                  <p className="lg:text-base text-sm text-[#896d5e]">
+                  <p className="lg:text-base text-sm text-accent-black">
                     Oleku Galleria is an inclusive and supportive ecosystem to
                     help women-owned businesses develop robust international
                     trade relationships, easy international market entry,
@@ -196,14 +196,14 @@ const Works = () => {
                     sells carefully curated and unique selection of brands).
                   </p>
                 </div>
-                <button className="btn btn-primary btn-wide mt-8 bg-[#c57354] hover:bg-[#a44b2b] border-none rounded-none">
+                <button className="btn btn-primary btn-wide mt-8 bg-accent-black hover:bg-accent-black border-none rounded-none">
                   Discover More
                 </button>
               </div>
             </div>
             <div className="p-4  w-full">
               <div className="p-4 w-full">
-                <div className="flex border-4 rounded-2xl  w-full border-[#a44b2b] relative pb-[60%]">
+                <div className="flex border-4 rounded-2xl  w-full border-accent-black relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
                       src={aboutone}

@@ -7,7 +7,7 @@ const TestimonialVideo = () => {
   return (
     <div className="py-24 flex justify-center">
       <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center w-screen max-w-[100rem]">
-        <div className="w-full h-[430px] bg-[#a44b2b] relative rounded-lg">
+        <div className="w-full h-[430px] bg-accent-black relative rounded-lg">
           <div className="grid lg:grid-cols-2 gap-8 relative">
             <div className="inset-0 lg:w-8/12 lg:h-[500px] lg:px-0 px-4 h-[200px] lg:translate-x-24 lg:-translate-y-10 -translate-y-10  ">
               <div className="flex w-full h-full bg-gray-500 rounded-lg ">

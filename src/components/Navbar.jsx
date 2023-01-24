@@ -67,7 +67,7 @@ const Navbar = () => {
             <Icon
               icon={click ? "ep:close" : "charm:menu-hamburger"}
               fontSize={30}
-              className="text-[#a44b2b]"
+              className="text-accent-black"
             />
           </button>
           <aside>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <ul className="menu   flex flex-row items-center justify-center text-black  lg:text-sm text-xs">
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/"
                     onClick={() => setClick(false)}>
                     Home
@@ -83,7 +83,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/about"
                     onClick={() => setClick(false)}>
                     About us
@@ -91,7 +91,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/services"
                     onClick={() => setClick(false)}>
                     Our Services
@@ -99,7 +99,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/programs"
                     onClick={() => setClick(false)}>
                     Programs
@@ -107,7 +107,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/ourwork"
                     onClick={() => setClick(false)}>
                     Initiatives - Our Work
@@ -115,7 +115,7 @@ const Navbar = () => {
                 </li>
                 {/* <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/workstation"
                     onClick={() => setClick(false)}>
                     Workstation
@@ -123,7 +123,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/education"
                     onClick={() => setClick(false)}>
                     Education
@@ -131,7 +131,7 @@ const Navbar = () => {
                 </li> */}
                 <li>
                   <a
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     href="https://www.designindaba.com/articles/interviews/how-re-roll-station-helping-african-fashion-entrepreneurs-launch-their-brands"
                     target="_blank"
                     onClick={() => setClick(false)}
@@ -141,7 +141,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                    className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                     to="/contact"
                     onClick={() => setClick(false)}>
                     Contact
@@ -160,7 +160,7 @@ const Navbar = () => {
                   <ul className="flex flex-col space-y-10 items-center text-white font-medium ">
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/"
                         onClick={() => setClick(false)}>
                         Home
@@ -168,7 +168,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/about"
                         onClick={() => setClick(false)}>
                         About us
@@ -176,7 +176,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/services"
                         onClick={() => setClick(false)}>
                         Our Services
@@ -184,7 +184,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/programs"
                         onClick={() => setClick(false)}>
                         Programs
@@ -192,7 +192,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/ourwork"
                         onClick={() => setClick(false)}>
                         Initiatives - Our Work
@@ -200,7 +200,7 @@ const Navbar = () => {
                     </li>
                     {/* <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/workstation"
                         onClick={() => setClick(false)}>
                         Workstation
@@ -208,7 +208,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/education"
                         onClick={() => setClick(false)}>
                         Education
@@ -216,7 +216,7 @@ const Navbar = () => {
                     </li> */}
                     <li>
                       <a
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         href="https://www.designindaba.com/articles/interviews/how-re-roll-station-helping-african-fashion-entrepreneurs-launch-their-brands"
                         target="_blank"
                         onClick={() => setClick(false)}
@@ -226,7 +226,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link
-                        className="cursor-pointer focus-within:bg-[#a44b2b] focus:bg-[#a44b2b] active:bg-[#a44b2b]"
+                        className="cursor-pointer focus-within:bg-accent-black focus:bg-accent-black active:bg-accent-black"
                         to="/contact"
                         onClick={() => setClick(false)}>
                         Contact
