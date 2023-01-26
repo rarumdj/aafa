@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutone, comma, line } from "../../assets/images";
+import { aboutone, brandd, comma, leader, line, productions, projectm } from "../../assets/images";
 
 const Service = () => {
   return (
@@ -118,6 +118,7 @@ const Service = () => {
             </div>
           </div> */}
         </div>
+
         <div className="flex flex-col mx-auto  px-6 lg:px-16 justify-center lg:mt-24 mt-16">
           <div className="flex flex-1 flex-col">
             <div className="grid md:grid-cols-2 gap-6">
@@ -125,7 +126,7 @@ const Service = () => {
                 <div className="space-y-4 ">
                   <figure className="mb-10">
                     <img
-                      src={aboutone}
+                      src={brandd}
                       alt="Shoes"
                       className="rounded-xl w-full"
                     />
@@ -155,7 +156,7 @@ const Service = () => {
                 <div className="space-y-4 ">
                   <figure className="mb-10">
                     <img
-                      src={aboutone}
+                      src={projectm}
                       alt="Shoes"
                       className="rounded-xl w-full"
                     />
@@ -189,7 +190,7 @@ const Service = () => {
                 <div className="space-y-4 ">
                   <figure className="mb-10">
                     <img
-                      src={aboutone}
+                      src={productions}
                       alt="Shoes"
                       className="rounded-xl w-full"
                     />
@@ -212,7 +213,7 @@ const Service = () => {
                 <div className="space-y-4 ">
                   <figure className="mb-10">
                     <img
-                      src={aboutone}
+                      src={leader}
                       alt="Shoes"
                       className="rounded-xl w-full"
                     />

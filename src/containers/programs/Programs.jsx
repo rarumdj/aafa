@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutone } from "../../assets/images";
+import { aboutone, exportReady, fashionIncubator, ylp } from "../../assets/images";
 
 const Programs = () => {
   return (
@@ -74,7 +74,7 @@ const Programs = () => {
                 <div className="flex border-4 rounded-2xl  w-full border-white relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
-                      src={aboutone}
+                      src={exportReady}
                       alt="img-about"
                       className="absolute inset-0 translate-x-2 -translate-y-2 w-full h-full rounded-lg"
                     />
@@ -112,7 +112,7 @@ const Programs = () => {
                 <div className="flex border-4 rounded-2xl  w-full border-accent-black relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
-                      src={aboutone}
+                      src={fashionIncubator}
                       alt="img-about"
                       className="absolute inset-0 translate-x-2 -translate-y-2 w-full h-full rounded-lg"
                     />
@@ -150,7 +150,7 @@ const Programs = () => {
                 <div className="flex border-4 rounded-2xl  w-full border-white relative pb-[60%]">
                   <div className="absolute inset-0 m-auto w-full rounded-lg h-full">
                     <img
-                      src={aboutone}
+                      src={ylp}
                       alt="img-about"
                       className="absolute inset-0 translate-x-2 -translate-y-2 w-full h-full rounded-lg"
                     />

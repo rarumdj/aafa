@@ -42,4 +42,14 @@ export { default as supported } from "./supported.jpg";
 export { default as community } from "./community.jpg";
 export { default as comma } from "./comma.svg";
 export { default as line } from "./line.svg";
+export { default as colaboration } from "./colaboartion.jpg";
+export { default as creativeCohort } from "./creative-cohort.jpg";
+export { default as exportReady } from "./export-ready.jpg";
+export { default as fashionIncubator } from "./fashion-incubator.jpg";
+export { default as ylp } from "./ylp.jpg";
+export { default as oleku } from "./oleku.jpg";
+export { default as leader } from "./leader.jpeg";
+export { default as productions } from "./productions.jpeg";
+export { default as projectm } from "./projectm.jpeg";
+export { default as brandd } from "./brandd.jpeg";
 
