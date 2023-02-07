@@ -13,9 +13,9 @@ const Hero = () => {
               Welcome to A+
             </h1>
             <p className="mb-5 text-accent-black leading-7 text-base">
-              The creatives from Africa are cut from a collection of rough
-              diamonds but with thorough refining and polishing they are bound
-              to take over the globe!
+              A+ is a research, development & Educational Agency that develops
+              and deploys programmes to empower African creative entrepreneurs
+              to succeed globally.
             </p>
             <button
               className="btn btn-primary bg-accent-black hover:bg-accent-black border-none"
@@ -32,9 +32,9 @@ const Hero = () => {
             Welcome to A+
           </h1>
           <p className="mb-5 text-accent-black lg:text-base text-sm">
-            The creatives from Africa are cut from a collection of rough
-            diamonds but with thorough refining and polishing they are bound to
-            take over the globe!
+            A+ is a research, development & Educational Agency that develops and
+            deploys programmes to empower African creative entrepreneurs to
+            succeed globally.
           </p>
           <button className="btn btn-primary bg-[#c57354] hover:bg-accent-black border-none">
             Find out more
