@@ -117,8 +117,8 @@ const Eligibility = () => {
   };
 
   return (
-    <section className="lg:py-24 py-10 flex md:flex-row flex-col md:justify-end items-center relative">
-      <div className="h-[530px] w-11/12 bg-white md:rounded-none rounded-xl bg-opacity-70 overflow-hidden py-2 md:pl-2 pl-3 md:pr-0 pr-3 relative">
+    <section className="min-h-full lg:py-24 py-10 flex md:flex-row flex-col md:justify-end items-center relative">
+      <div className=" w-11/12 bg-white md:rounded-none rounded-xl bg-opacity-70 overflow-hidden py-2 md:pl-2 pl-3 md:pr-0 pr-3 relative">
         <div className="w-full h-full filter backdrop-blur absolute inset-0" />
         <div className="filter-none bg-[#f9f5f2] w-full h-full flex justify-end">
           <div className="h-full md:w-2/12 w-full py-2 z-10  md:flex items-center justify-center hidden">
@@ -139,7 +139,7 @@ const Eligibility = () => {
               className="flex items-center">
               {Testi.map((items, i) => (
                 <SwiperSlide key={i}>
-                  <div className="bg-transparent p-10">
+                  <div className="bg-transparent p-10 h-full">
                     <div className="space-y-4 mb-10">
                       <h1 className="text-accent-black">
                         {i > 8 ? i + 1 : `0${i + 1}`}
