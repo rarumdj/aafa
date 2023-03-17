@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url(assets/images/aafabanner1.jpg)",
+        "hero-pattern": "url(assets/images/aafabanner.jpg)",
         "value-prep": "url(assets/images/valueimage.jpg)",
       },
       colors: {

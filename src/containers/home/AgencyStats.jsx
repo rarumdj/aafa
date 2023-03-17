@@ -35,7 +35,7 @@ const Testi = [
     imgSrc: project_ex,
   },
   {
-    name: "Lives impacted",
+    name: "Lives Impacted",
     year: `20,000+`,
     imgSrc: live_impact,
   },
@@ -104,12 +104,12 @@ const AgencyStats = () => {
                   </div>
 
                   <div className="absolute bottom-0 flex h-fit -translate-y-20 z-10">
-                    <div className="p-2.5 bg-orange-500">
+                    <div className="p-2.5 bg-fuchsia-500">
                       <h4 className="lg:text-lg text-base font-medium text-white ">
                         {items.name}
                       </h4>
                     </div>
-                    <div className="p-2.5 bg-orange-800">
+                    <div className="p-2.5 bg-fuchsia-800">
                       <h4 className="lg:text-lg text-base font-medium text-white">
                         {items.year}
                       </h4>
@@ -148,12 +148,12 @@ const AgencyStats = () => {
                 </div>
 
                 <div className="absolute flex h-fit bottom-5 z-10">
-                  <div className="p-2.5 bg-orange-500">
+                  <div className="p-2.5 bg-fuchsia-500">
                     <h4 className="lg:text-xl text-sm font-medium text-white ">
                       {item.name}
                     </h4>
                   </div>
-                  <div className="p-2.5 bg-orange-800">
+                  <div className="p-2.5 bg-fuchsia-800">
                     <h4 className="lg:text-xl text-sm font-medium text-white">
                       {item.year}
                     </h4>
